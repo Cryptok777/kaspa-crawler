@@ -2,3 +2,5 @@
 /old
 __pycache__
 .idea
+.env
+.DS_Store

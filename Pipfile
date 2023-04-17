@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+grpcio-tools = "*"
+grpcio = "*"
+ndjson = "*"
+aiofiles = "*"
+psutil = "*"
+fastapi-utils = "*"
+load-dotenv = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+fastapi = "*"
+aiohttp = "*"
+async-cache = "*"
+
+[dev-packages]
+black = "*"
+
+[requires]
+python_version = "3.10"
