@@ -12,9 +12,20 @@ from dotenv import load_dotenv
 from cache import AsyncLRU
 
 from fastapi_utils.tasks import repeat_every
+from fastapi.middleware.cors import CORSMiddleware
 
 load_dotenv(override=True)
 app = FastAPI()
+
+origins = ["*"]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 seed_node = os.getenv("SEED_NODE", False)
 verbose = os.getenv("VERBOSE", 0)
@@ -51,8 +62,8 @@ async def get_ip_info(ip):
     url = f"https://ipinfo.io/{ip}?token={ipinfo_token}"
     async with aiohttp.ClientSession() as session:
         async with session.get(url) as response:
-            res =  await response.json()
-            return res.get('loc')
+            res = await response.json()
+            return res.get("loc")
 
 
 @app.get("/")
