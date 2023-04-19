@@ -70,8 +70,8 @@ async def get_ip_info(ip):
 async def read_root():
     f = open(NODE_OUTPUT_FILE, "r")
     data = json.loads(f.read())
-    for ip in data:
-        data[ip]["loc"] = await get_ip_info(extract_ip_address(ip))
+    for ip in data['nodes']:
+        data['nodes'][ip]["loc"] = await get_ip_info(extract_ip_address(ip))
     return data
 
 
