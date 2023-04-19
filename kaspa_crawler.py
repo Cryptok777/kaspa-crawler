@@ -213,7 +213,13 @@ async def main(addresses, network, output, ipinfo_token=None):
 
             for task in done:
                 address, peer_id, peer_kaspad, addresses, error, loc = task.result()
-                res[address] = { "neighbors": [], "id": peer_id, "kaspad": peer_kaspad, "error": error, "loc": loc }
+                res[address] = {
+                    "neighbors": [],
+                    "id": peer_id,
+                    "kaspad": peer_kaspad,
+                    "error": error,
+                    "loc": loc,
+                }
                 if error is not None:
                     res[address]["error"] = repr(error)
                 for ts, ipstr, port in addresses:
@@ -252,13 +258,16 @@ async def main(addresses, network, output, ipinfo_token=None):
         # Clean up
         clean_res = {}
         for i in res:
-            if res[i]["neighbors"] !=[]:
+            if res[i]["neighbors"] != []:
                 clean_res[i] = res[i]
                 del clean_res[i]["neighbors"]
 
         async with semaphore:
             json.dump(
-                clean_res,
+                {
+                    "nodes": clean_res,
+                    "updated_at": int(time.time())
+                },
                 open(output, "w"),
                 allow_nan=False,
                 indent=2,

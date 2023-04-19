@@ -11,7 +11,7 @@ from kaspa_crawler import main
 from dotenv import load_dotenv
 from cache import AsyncLRU
 
-from fastapi_utils.tasks import repeat_every
+from apscheduler.schedulers.background import BackgroundScheduler
 from fastapi.middleware.cors import CORSMiddleware
 
 load_dotenv(override=True)
@@ -75,8 +75,15 @@ async def read_root():
     return data
 
 
-@repeat_every(seconds=60 * 60)
+@app.on_event("startup")
+def init_data():
+    scheduler = BackgroundScheduler()
+    scheduler.add_job(update_nodes, "interval", hours=1)
+    scheduler.start()
+
+
 def update_nodes() -> None:
+    logging.info(f"Starting crawler job")
     hostpair = seed_node.split(":") if ":" in seed_node else (seed_node, "16111")
     asyncio.run(
         main([hostpair], "kaspa-mainnet", NODE_OUTPUT_FILE, ipinfo_token=ipinfo_token)

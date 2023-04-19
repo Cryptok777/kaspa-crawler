@@ -9,12 +9,12 @@ grpcio = "*"
 ndjson = "*"
 aiofiles = "*"
 psutil = "*"
-fastapi-utils = "*"
 load-dotenv = "*"
 uvicorn = {extras = ["standard"], version = "*"}
 fastapi = "*"
 aiohttp = "*"
 async-cache = "*"
+apscheduler = "*"
 
 [dev-packages]
 black = "*"
