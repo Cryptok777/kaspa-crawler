@@ -151,30 +151,29 @@ async def get_addresses(
         loc = ""
         try:
             await asyncio.sleep(0)
-            async with aiohttp.ClientSession() as session:
-                async with P2PNode(address, network, ipinfo_token=ipinfo_token) as node:
-                    await asyncio.sleep(0)
-                    peer_id = node.peer_id.hex()
-                    peer_kaspad = node.peer_kaspad
-                    prev = time.time()
-                    while len(addresses) > prev_size or patience > 0:
-                        # Log info every 5 seconds approximately
-                        if time.time() - prev > 5:
-                            await asyncio.sleep(0)
-                            logging.info("getting more addresses")
-                            prev = time.time()
-                        if len(addresses) <= prev_size:
-                            patience -= 1
-                        else:
-                            patience = 10
-                        prev_size = len(addresses)
-                        item = await node.get_addresses()
-                        if item is not None:
-                            addresses.update(
-                                ((x.timestamp, x.ip, x.port) for x in item)
-                            )
-                    await asyncio.sleep(0)
-                    # loc = await node.ipinfo(session, semaphore)
+            async with P2PNode(address, network, ipinfo_token=ipinfo_token) as node:
+                await asyncio.sleep(0)
+                peer_id = node.peer_id.hex()
+                peer_kaspad = node.peer_kaspad
+                prev = time.time()
+                while len(addresses) > prev_size or patience > 0:
+                    # Log info every 5 seconds approximately
+                    if time.time() - prev > 5:
+                        await asyncio.sleep(0)
+                        logging.info("getting more addresses")
+                        prev = time.time()
+                    if len(addresses) <= prev_size:
+                        patience -= 1
+                    else:
+                        patience = 10
+                    prev_size = len(addresses)
+                    item = await node.get_addresses()
+                    if item is not None:
+                        addresses.update(
+                            ((x.timestamp, x.ip, x.port) for x in item)
+                        )
+                await asyncio.sleep(0)
+
         except asyncio.exceptions.TimeoutError as e:
             logging.debug("Node %s timed out", address)
             return address, peer_id, peer_kaspad, addresses, "timeout", loc
@@ -292,7 +291,7 @@ if __name__ == "__main__":
         description="Crawler to list all known p2p nodes and their information. Used to create a map of the p2p nodes"
     )
     parser.add_argument(
-        "-v", "--verbose", help="Verbosity level", action="count", default=0
+        "-v", "--verbose", help="Verbosity level", action="count", default=1
     )
     parser.add_argument(
         "--addr", help="Start ip:port for crawling", default="seeder3.kaspad.net:16111"

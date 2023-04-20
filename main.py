@@ -4,6 +4,7 @@ import os
 import logging
 import aiohttp
 import re
+import time
 
 from fastapi import FastAPI
 from kaspa_crawler import main
@@ -11,6 +12,7 @@ from kaspa_crawler import main
 from dotenv import load_dotenv
 from cache import AsyncLRU
 
+from apscheduler.events import EVENT_JOB_EXECUTED, EVENT_JOB_ERROR
 from apscheduler.schedulers.background import BackgroundScheduler
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -70,15 +72,23 @@ async def get_ip_info(ip):
 async def read_root():
     f = open(NODE_OUTPUT_FILE, "r")
     data = json.loads(f.read())
-    for ip in data['nodes']:
-        data['nodes'][ip]["loc"] = await get_ip_info(extract_ip_address(ip))
+    for ip in data["nodes"]:
+        data["nodes"][ip]["loc"] = await get_ip_info(extract_ip_address(ip))
     return data
 
 
 @app.on_event("startup")
 def init_data():
     scheduler = BackgroundScheduler()
-    scheduler.add_job(update_nodes, "interval", hours=1)
+    job = scheduler.add_job(update_nodes, "interval", minutes=30)
+
+    start_time = time.time()
+    max_runtime = 25 * 60  # 25 minutes
+
+    scheduler.add_listener(
+        lambda event: limit_job_runtime(event, job, scheduler, start_time, max_runtime),
+        EVENT_JOB_EXECUTED | EVENT_JOB_ERROR,
+    )
     scheduler.start()
 
 
@@ -88,3 +98,9 @@ def update_nodes() -> None:
     asyncio.run(
         main([hostpair], "kaspa-mainnet", NODE_OUTPUT_FILE, ipinfo_token=ipinfo_token)
     )
+
+
+def limit_job_runtime(event, job, scheduler, start_time, max_runtime):
+    if time.time() - start_time >= max_runtime:
+        scheduler.remove_job(job.id)
+        logging.warning("Job removed due to exceeding max run time")
