@@ -70,21 +70,27 @@ async def get_ip_info(ip):
 async def read_root():
     f = open(NODE_OUTPUT_FILE, "r")
     data = json.loads(f.read())
-    for ip in data['nodes']:
-        data['nodes'][ip]["loc"] = await get_ip_info(extract_ip_address(ip))
+    for ip in data["nodes"]:
+        data["nodes"][ip]["loc"] = await get_ip_info(extract_ip_address(ip))
     return data
 
 
 @app.on_event("startup")
 def init_data():
     scheduler = BackgroundScheduler()
-    scheduler.add_job(update_nodes, "interval", hours=1)
+    scheduler.add_job(update_nodes, "interval", minutes=30)
     scheduler.start()
 
 
-def update_nodes() -> None:
+async def update_nodes_async() -> None:
     logging.info(f"Starting crawler job")
     hostpair = seed_node.split(":") if ":" in seed_node else (seed_node, "16111")
-    asyncio.run(
-        main([hostpair], "kaspa-mainnet", NODE_OUTPUT_FILE, ipinfo_token=ipinfo_token)
-    )
+    await main([hostpair], "kaspa-mainnet", NODE_OUTPUT_FILE, ipinfo_token=ipinfo_token)
+
+
+def update_nodes() -> None:
+    max_runtime = 25 * 60  # 25 minutes
+    try:
+        asyncio.run(asyncio.wait_for(update_nodes_async(), timeout=max_runtime))
+    except TimeoutError:
+        logging.warning(f"Job exceeded max runtime of {max_runtime} seconds")
