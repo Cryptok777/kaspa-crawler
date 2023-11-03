@@ -150,17 +150,14 @@ async def get_addresses(
         peer_kaspad = ""
         loc = ""
         try:
-            await asyncio.sleep(0)
             async with aiohttp.ClientSession() as session:
                 async with P2PNode(address, network, ipinfo_token=ipinfo_token) as node:
-                    await asyncio.sleep(0)
                     peer_id = node.peer_id.hex()
                     peer_kaspad = node.peer_kaspad
                     prev = time.time()
                     while len(addresses) > prev_size or patience > 0:
                         # Log info every 5 seconds approximately
                         if time.time() - prev > 5:
-                            await asyncio.sleep(0)
                             logging.info("getting more addresses")
                             prev = time.time()
                         if len(addresses) <= prev_size:
@@ -173,14 +170,14 @@ async def get_addresses(
                             addresses.update(
                                 ((x.timestamp, x.ip, x.port) for x in item)
                             )
-                    await asyncio.sleep(0)
-                    # loc = await node.ipinfo(session, semaphore)
+
         except asyncio.exceptions.TimeoutError as e:
             logging.debug("Node %s timed out", address)
             return address, peer_id, peer_kaspad, addresses, "timeout", loc
         except Exception as e:
             logging.exception("Error in task")
             return address, peer_id, peer_kaspad, addresses, e, loc
+
         return address, peer_id, peer_kaspad, addresses, "", loc
     except asyncio.CancelledError:
         logging.debug("Task was canceled")
@@ -263,17 +260,18 @@ async def main(addresses, network, output, ipinfo_token=None):
                 del clean_res[i]["neighbors"]
 
         async with semaphore:
-            json.dump(
-                {
-                    "nodes": clean_res,
-                    "updated_at": int(time.time())
-                },
-                open(output, "w"),
-                allow_nan=False,
-                indent=2,
-                sort_keys=True,
-                ensure_ascii=True,
-            )
+            if len(clean_res) >= 10:
+                json.dump(
+                    {
+                        "nodes": clean_res,
+                        "updated_at": int(time.time())
+                    },
+                    open(output, "w"),
+                    allow_nan=False,
+                    indent=2,
+                    sort_keys=True,
+                    ensure_ascii=True,
+                )
 
         while len(pending) > 0:
             logging.warning(
