@@ -115,7 +115,7 @@ class P2PNode(object):
             else:
                 logging.debug("During handshake, got unexpected %s", payload)
 
-        raise ConnectionError("Wrong protocol")
+        # raise ConnectionError("Wrong protocol")
 
     async def get_addresses(self):
         logging.debug("Starting get_addresses")
@@ -201,8 +201,11 @@ async def main(addresses, network, output, ipinfo_token=None):
         )
         for address, port in addresses
     ]
+    start_time = time.time()
+    timeout_time = start_time + 60 * 25 # 25 minutes
+
     try:
-        while len(pending) > 0:
+        while len(pending) > 0 and time.time() < timeout_time:
             logging.info(f"Currently pending: {len(pending)}")
             done, pending = await asyncio.wait(
                 pending, return_when=asyncio.FIRST_COMPLETED
@@ -293,7 +296,7 @@ if __name__ == "__main__":
         "-v", "--verbose", help="Verbosity level", action="count", default=0
     )
     parser.add_argument(
-        "--addr", help="Start ip:port for crawling", default="seeder3.kaspad.net:16111"
+        "--addr", help="Start ip:port for crawling", default="n-mainnet.kaspa.ws:16111"
     )
     parser.add_argument("--output", help="output json path", default="data/nodes.json")
     parser.add_argument(
