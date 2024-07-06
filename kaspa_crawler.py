@@ -60,7 +60,7 @@ class P2PNode(object):
         self.peer_version = 2
         self.peer_id = None
 
-        await asyncio.wait_for(self.channel.channel_ready(), 2)
+        await asyncio.wait_for(self.channel.channel_ready(), 5)
         self.stub = messages_pb2_grpc.P2PStub(self.channel)
 
         self.send_queue = asyncio.queues.Queue()
@@ -293,7 +293,7 @@ if __name__ == "__main__":
         description="Crawler to list all known p2p nodes and their information. Used to create a map of the p2p nodes"
     )
     parser.add_argument(
-        "-v", "--verbose", help="Verbosity level", action="count", default=0
+        "-v", "--verbose", help="Verbosity level", action="count", default=1
     )
     parser.add_argument(
         "--addr", help="Start ip:port for crawling", default="n-mainnet.kaspa.ws:16111"

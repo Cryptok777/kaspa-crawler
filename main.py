@@ -89,7 +89,7 @@ async def update_nodes_async() -> None:
 
 
 def update_nodes() -> None:
-    max_runtime = 25 * 60  # 25 minutes
+    max_runtime = 30 * 60  # 30 minutes
     try:
         asyncio.run(asyncio.wait_for(update_nodes_async(), timeout=max_runtime))
     except TimeoutError:
