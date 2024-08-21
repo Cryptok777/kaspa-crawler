@@ -186,7 +186,6 @@ async def get_addresses(
 async def main(addresses, network, output, ipinfo_token=None):
     ulimit, _ = resource.getrlimit(resource.RLIMIT_NOFILE)
     ulimit = max(ulimit - 20, 1)
-    # ulimit = max(ulimit - resource.getrusage(resource.RLIMIT_NOFILE)//2, 1)
     logging.info(f"Running {ulimit} tasks concurrently")
     semaphore = asyncio.Semaphore(ulimit)
 
@@ -202,7 +201,7 @@ async def main(addresses, network, output, ipinfo_token=None):
         for address, port in addresses
     ]
     start_time = time.time()
-    timeout_time = start_time + 60 * 25 # 25 minutes
+    timeout_time = start_time + 60 * 25  # 25 minutes
 
     try:
         while len(pending) > 0 and time.time() < timeout_time:
@@ -212,7 +211,15 @@ async def main(addresses, network, output, ipinfo_token=None):
             )
 
             for task in done:
-                address, peer_id, peer_kaspad, addresses, error, loc = task.result()
+                try:
+                    result = task.result()
+                    if result is None:
+                        continue
+                    address, peer_id, peer_kaspad, addresses, error, loc = result
+                except asyncio.TimeoutError:
+                    logging.warning(f"Task timed out and was cancelled")
+                    continue
+
                 res[address] = {
                     "neighbors": [],
                     "id": peer_id,
@@ -236,11 +243,14 @@ async def main(addresses, network, output, ipinfo_token=None):
                                     seen.add(new_address)
                                     pending.add(
                                         asyncio.create_task(
-                                            get_addresses(
-                                                new_address,
-                                                network,
-                                                semaphore,
-                                                ipinfo_token=ipinfo_token,
+                                            asyncio.wait_for(
+                                                get_addresses(
+                                                    new_address,
+                                                    network,
+                                                    semaphore,
+                                                    ipinfo_token=ipinfo_token,
+                                                ),
+                                                timeout=30,
                                             )
                                         )
                                     )
@@ -265,10 +275,7 @@ async def main(addresses, network, output, ipinfo_token=None):
         async with semaphore:
             if len(clean_res) >= 10:
                 json.dump(
-                    {
-                        "nodes": clean_res,
-                        "updated_at": int(time.time())
-                    },
+                    {"nodes": clean_res, "updated_at": int(time.time())},
                     open(output, "w"),
                     allow_nan=False,
                     indent=2,
