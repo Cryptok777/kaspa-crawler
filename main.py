@@ -78,7 +78,7 @@ async def read_root():
 @app.on_event("startup")
 def init_data():
     scheduler = BackgroundScheduler()
-    scheduler.add_job(update_nodes, "interval", minutes=30)
+    scheduler.add_job(update_nodes, "interval", minutes=20)
     scheduler.start()
 
 
@@ -89,7 +89,7 @@ async def update_nodes_async() -> None:
 
 
 def update_nodes() -> None:
-    max_runtime = 30 * 60  # 30 minutes
+    max_runtime = 15 * 60  # 15 minutes
     try:
         asyncio.run(asyncio.wait_for(update_nodes_async(), timeout=max_runtime))
     except TimeoutError:

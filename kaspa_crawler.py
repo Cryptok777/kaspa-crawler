@@ -250,7 +250,7 @@ async def main(addresses, network, output, ipinfo_token=None):
                                                     semaphore,
                                                     ipinfo_token=ipinfo_token,
                                                 ),
-                                                timeout=30,
+                                                timeout=15,
                                             )
                                         )
                                     )
