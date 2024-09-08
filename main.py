@@ -57,7 +57,7 @@ def extract_ip_address(input_string):
         return None
 
 
-@AsyncLRU(maxsize=8192)
+@AsyncLRU(maxsize=2048)
 async def get_ip_info(ip):
     url = f"https://ipinfo.io/{ip}?token={ipinfo_token}"
     async with aiohttp.ClientSession() as session:
@@ -78,7 +78,7 @@ async def read_root():
 @app.on_event("startup")
 def init_data():
     scheduler = BackgroundScheduler()
-    scheduler.add_job(update_nodes, "interval", minutes=20)
+    scheduler.add_job(update_nodes, "interval", minutes=60)
     scheduler.start()
 
 
