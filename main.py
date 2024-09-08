@@ -57,7 +57,7 @@ def extract_ip_address(input_string):
         return None
 
 
-@AsyncLRU(maxsize=2048)
+@AsyncLRU(maxsize=8192)
 async def get_ip_info(ip):
     url = f"https://ipinfo.io/{ip}?token={ipinfo_token}"
     async with aiohttp.ClientSession() as session:
