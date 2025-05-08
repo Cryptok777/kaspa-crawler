@@ -62,10 +62,11 @@ async def get_ip_info(ip):
     """
     Return string: "48.8000,12.3167"
     """
-    url = f"https://api.ipgeolocation.io/v2/ipgeo?apiKey={ip_geolocation_token}&ip={ip}"
+    url = f"https://api.findip.net/{ip}/?token={ip_geolocation_token}"
     async with aiohttp.ClientSession() as session:
         async with session.get(url) as response:
-            res = await response.json()
+            res = await response.text()
+            res = json.loads(res)
             lat = res.get("location", {}).get("latitude")
             lon = res.get("location", {}).get("longitude")
             if lat and lon:
@@ -79,7 +80,10 @@ async def read_root():
     f = open(NODE_OUTPUT_FILE, "r")
     data = json.loads(f.read())
     for ip in data["nodes"]:
-        data["nodes"][ip]["loc"] = await get_ip_info(extract_ip_address(ip))
+        try:
+            data["nodes"][ip]["loc"] = await get_ip_info(extract_ip_address(ip))
+        except Exception as e:
+            logging.warning(f"Error processing IP {ip}: {str(e)}")
     return data
 
 
@@ -93,7 +97,7 @@ def init_data():
 async def update_nodes_async() -> None:
     logging.info(f"Starting crawler job")
     hostpair = seed_node.split(":") if ":" in seed_node else (seed_node, "16111")
-    await main([hostpair], "kaspa-mainnet", NODE_OUTPUT_FILE, ipinfo_token=ipinfo_token)
+    await main([hostpair], "kaspa-mainnet", NODE_OUTPUT_FILE)
 
 
 def update_nodes() -> None:
