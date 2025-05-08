@@ -29,7 +29,7 @@ app.add_middleware(
 
 seed_node = os.getenv("SEED_NODE", False)
 verbose = os.getenv("VERBOSE", 0)
-ipinfo_token = os.getenv("IPINFO_TOKEN", 0)
+ip_geolocation_token = os.getenv("IP_GEOLOCATION_TOKEN", 0)
 
 logging.basicConfig(
     level=[logging.WARN, logging.INFO, logging.DEBUG][min(int(verbose), 2)]
@@ -59,11 +59,19 @@ def extract_ip_address(input_string):
 
 @AsyncLRU(maxsize=8192)
 async def get_ip_info(ip):
-    url = f"https://ipinfo.io/{ip}?token={ipinfo_token}"
+    """
+    Return string: "48.8000,12.3167"
+    """
+    url = f"https://api.ipgeolocation.io/v2/ipgeo?apiKey={ip_geolocation_token}&ip={ip}"
     async with aiohttp.ClientSession() as session:
         async with session.get(url) as response:
             res = await response.json()
-            return res.get("loc")
+            lat = res.get("location", {}).get("latitude")
+            lon = res.get("location", {}).get("longitude")
+            if lat and lon:
+                return f"{lat},{lon}"
+            else:
+                return None
 
 
 @app.get("/")
