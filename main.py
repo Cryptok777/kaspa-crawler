@@ -62,6 +62,7 @@ async def get_ip_info(ip):
     """
     Return string: "48.8000,12.3167"
     """
+    ip = ip.replace("ipv6:", "")
     url = f"https://api.findip.net/{ip}/?token={ip_geolocation_token}"
     async with aiohttp.ClientSession() as session:
         async with session.get(url) as response:
