@@ -2,182 +2,104 @@
   "nodes": {
     "1.215.75.83:16111": {
       "error": "''",
-      "id": "ab80c97a18314c8fbbe8356064e5ae80",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "f46e230e9a0848ca93754bbd388c1f13",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "1.221.227.244:16111": {
+    "101.109.254.42:16111": {
       "error": "''",
-      "id": "c81e6cf5a295436bbc7d9f7fb9b6e61f",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "3635bae0b3d4439284539f36ba8b7254",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "100.8.30.104:16111": {
+    "103.95.113.96:16111": {
       "error": "''",
-      "id": "9365a13c2f3c56744838d9c1f99a5138",
-      "kaspad": "/kaspad:0.12.14/kaspad:0.12.14(kdx_2.12.8)/",
-      "loc": ""
-    },
-    "102.216.79.232:16111": {
-      "error": "''",
-      "id": "f543d07a692140e795e8c0d1bc2d268f",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "af4a494f5ad24904b8dbc21f6cbc87d2",
+      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
       "loc": ""
     },
     "107.146.57.209:16111": {
       "error": "''",
-      "id": "5709558d21674dad90fd5b87e382a4c9",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "5e09f548a82945778be0c7450342be54",
+      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
       "loc": ""
     },
-    "107.198.54.250:16111": {
+    "108.2.107.219:16111": {
       "error": "''",
-      "id": "c6b92d5dc7d74a0bbedaa36605090367",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "107.220.225.108:16111": {
-      "error": "''",
-      "id": "ac124d1b3979431889e964037f418ec0",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "109.196.50.68:16111": {
-      "error": "''",
-      "id": "60b797c878194864a75f9427d5ecbf56",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "6e6b7e6c5a2c40498f78de9b1c6ac167",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "109.198.191.105:16111": {
       "error": "''",
-      "id": "b0b9a9b27da747909a4f3b13663b354c",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "109.236.90.63:16111": {
-      "error": "''",
-      "id": "3760333d0761897461620fcd3c2641fc",
-      "kaspad": "/kaspad:0.12.20/kaspad:0.12.20/",
-      "loc": ""
-    },
-    "109.248.250.155:16111": {
-      "error": "''",
-      "id": "9a992e2c4ee04bf98b0e6f33b97c8279",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "115.20.163.44:16111": {
-      "error": "''",
-      "id": "fd5aa88e230c4eeda7abccd9cbc221d1",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "116.202.130.71:16111": {
-      "error": "''",
-      "id": "70c56051efe6482e81a295700c996b82",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "118.193.78.91:16111": {
-      "error": "''",
-      "id": "92bb637ffcb24f9e906bc27864c538a3",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "122.116.168.37:16111": {
-      "error": "''",
-      "id": "099cf9545fc8404bb66ba768cae9dc44",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "123.208.134.1:16111": {
-      "error": "''",
-      "id": "708abd37b6d14ef181698f4c7c33ce71",
+      "id": "fcf4e0cb619d4d0d954dde9c01390618",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
       "loc": ""
     },
-    "129.148.27.148:16111": {
+    "109.21.97.146:16111": {
       "error": "''",
-      "id": "0cc07475bd19436997576305903d7387",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "b801a748d6174a9ca9c7e94bb6e413fc",
+      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
       "loc": ""
     },
-    "129.222.250.26:16111": {
+    "115.21.171.185:16111": {
       "error": "''",
-      "id": "946c93fdcfc644b6b5cebb7d2abaa432",
+      "id": "97a3d4f869db40c2afd02b7e48d8a1f6",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "125.229.58.129:16111": {
+      "error": "''",
+      "id": "ca54a16dc3bd44369cf3ca5e1dc26ce2",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "125.26.205.47:16111": {
+      "error": "''",
+      "id": "6fdde37d1fe942ce9768b6b95ab778a4",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "13.213.170.248:16111": {
+      "error": "''",
+      "id": "dfaec01430f94504bc03bf94ed28c49f",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
     "135.125.206.208:16111": {
       "error": "''",
-      "id": "20f565f894e04cf19952c27dea7ff419",
+      "id": "070114d4b96d4ed18388cba849a6d00b",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
     "135.131.145.104:16111": {
       "error": "''",
-      "id": "e65748e25b474b33b18b97233193e59c",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "fdd47a65f51e4e399a0f7d6638480371",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "135.148.54.69:16111": {
       "error": "''",
-      "id": "53a64c53617e4aa3a63ac3d9f4a4bc13",
-      "kaspad": "/kaspad:0.17.1/kaspad:0.17.1/",
+      "id": "9e56d5cf8b36418e94cf503f3bfaa2b6",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "135.181.177.164:16111": {
+    "136.38.211.155:16111": {
       "error": "''",
-      "id": "b82793e7f2b14123bff29dfcbc4eee55",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "c3d0a4ba5c2045ce8d85c45ca29bda6b",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "135.181.177.189:16111": {
+    "138.199.175.135:16111": {
       "error": "''",
-      "id": "b82793e7f2b14123bff29dfcbc4eee55",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "b45f7bb129ab4fb1afe92233ea670c93",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "136.58.86.152:16111": {
+    "139.180.222.5:16111": {
       "error": "''",
-      "id": "59f15320a21e45af977d0faf904d705e",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "137.220.66.225:16111": {
-      "error": "''",
-      "id": "6a12097514d1e052bdc28aeed457fcb5",
-      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
-      "loc": ""
-    },
-    "138.124.30.79:16111": {
-      "error": "''",
-      "id": "6508ff1cf915473691f1a6b58588529b",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "139.180.216.135:16111": {
-      "error": "''",
-      "id": "129c19c1dee286ce83f03b324b7d193d",
-      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15/",
-      "loc": ""
-    },
-    "14.47.154.207:16111": {
-      "error": "''",
-      "id": "d35b979230d74760a5791ae19a51ea8d",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "140.141.184.86:16111": {
-      "error": "''",
-      "id": "a785b912fc0663b48b40dd2010c3f8da",
-      "kaspad": "/kaspad:0.12.17/kaspad:0.12.17/",
-      "loc": ""
-    },
-    "140.186.92.17:16111": {
-      "error": "''",
-      "id": "35ac237cd6bf4313a314ec478958c0f5",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "12f8e874666d4350b5141114af24d143",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "141.95.124.89:16511": {
@@ -212,7 +134,7 @@
     },
     "141.95.34.44:16511": {
       "error": "''",
-      "id": "b54e5aaa2e394bf4869fb7048a221a44",
+      "id": "eeed16cd5dad4f57892904e49e47a004",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
@@ -224,32 +146,8 @@
     },
     "142.132.136.223:16111": {
       "error": "''",
-      "id": "8b2e4277bb1949d2beffd4f02a900b1c",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "142.171.168.202:16111": {
-      "error": "''",
-      "id": "88436d6267f3434e90bb92aa87f01abc",
-      "kaspad": "/kaspad:0.15.2/kaspad:0.15.2/",
-      "loc": ""
-    },
-    "144.126.156.148:16111": {
-      "error": "''",
-      "id": "f24059c3c78c4ca5a8a3d530c14041f5",
-      "kaspad": "/kaspad:0.17.1/kaspad:0.17.1/",
-      "loc": ""
-    },
-    "144.6.204.113:16111": {
-      "error": "''",
-      "id": "0556cbd900b246e084e7e74993e349d5",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
-      "loc": ""
-    },
-    "144.76.113.3:16111": {
-      "error": "''",
-      "id": "10714e24aff548fc93571fa8c957e16a",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "5c1f180623d9fd05cd714fb47e788f55",
+      "kaspad": "/kaspad:0.12.17/kaspad:0.12.17/",
       "loc": ""
     },
     "144.76.19.91:16111": {
@@ -260,20 +158,32 @@
     },
     "145.239.11.165:16111": {
       "error": "''",
-      "id": "cb5c4636bed548f4b47b6f4a91485a85",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "2a0f771335254547b880318cd944f8ca",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "145.239.239.242:16111": {
       "error": "''",
-      "id": "4737a6b4af5743cd8dab2d9a24d891af",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "708e7b31d54847d0bbb5f78805b612c0",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "147.135.70.163:16111": {
       "error": "''",
-      "id": "86ebf2ae5b4249b39f055eef655098b2",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "16b51867ea3741e799c9bb753c673261",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "147.135.70.51:16111": {
+      "error": "''",
+      "id": "e92eabfbbb7a48f3a0c8265c9d8dabdd",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "147.182.232.28:16111": {
+      "error": "''",
+      "id": "d703211973b249d78d08c3d50f9a1026",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "147.93.113.214:16111": {
@@ -284,31 +194,43 @@
     },
     "147.93.69.22:16111": {
       "error": "''",
-      "id": "737d739c534646e289e5ad86c3ddbeac",
+      "id": "31f399d9fe12439aaeb0e1da548de5dd",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "loc": ""
+    },
+    "148.113.187.166:16111": {
+      "error": "''",
+      "id": "9fe840626f3f4e39bccc2b3c652c4994",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "148.113.212.147:16111": {
       "error": "''",
-      "id": "75c8c13c9bf140b2a48fa644461486ea",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "a446cf445df54cf9b097980cefccff87",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "148.251.151.149:16111": {
+    "148.230.122.141:16111": {
       "error": "''",
-      "id": "3709aa7a3ae145bbb861da9f5f3c806b",
-      "kaspad": "/kaspad:0.16.0/kaspad:0.16.0/",
+      "id": "0e51352a5265436bb21a2f053ed1dbf2",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "149.50.116.53:16111": {
+    "148.230.122.249:16111": {
       "error": "''",
-      "id": "d938f42328224819900142bca34feb53",
+      "id": "28451873ca894cc986a83697aa29c118",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "149.50.101.58:20005": {
+      "error": "''",
+      "id": "b32112cf1a1946cf8ba1b0bbbcdb8e23",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
     "15.204.101.195:16111": {
       "error": "''",
-      "id": "2f8327cebe004588950517f1fae90e16",
+      "id": "5c3356d11d234825aba984252636b61f",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
@@ -336,28 +258,10 @@
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
-    "150.136.87.0:16111": {
+    "152.44.181.160:52861": {
       "error": "''",
-      "id": "18d76c96cd374ddb8f384f0e1b90ac08",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "152.53.111.79:16111": {
-      "error": "''",
-      "id": "71548928cdda4e86a7ebe89ef3e35123",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "152.53.118.79:16111": {
-      "error": "''",
-      "id": "8177f27b34fd4d60a2ab5f6528b6196a",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "152.53.122.14:16111": {
-      "error": "''",
-      "id": "edec4e83d6444510812bc69888344c3d",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "5bd9bafdf0e24bcbba3484558dc05c51",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "152.53.128.228:16111": {
@@ -366,147 +270,117 @@
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
+    "152.53.137.103:16111": {
+      "error": "''",
+      "id": "10fded052faf452684aae4e3f5523b23",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "152.53.178.127:16111": {
+      "error": "''",
+      "id": "b145ef79822d4dee8b67f423b1d240df",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
     "152.53.18.176:16111": {
       "error": "''",
-      "id": "2f0fd5d641aa4d6a86dd26fa8000a51c",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "152.53.21.111:16111": {
-      "error": "''",
-      "id": "67a5e46aac1e45739e7067941a3c2be3",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "152.53.241.101:16111": {
-      "error": "''",
-      "id": "85ced890f1e1463cb226286b0381c3eb",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "52b72571328f4cea99a485720cc8cdcc",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "152.53.36.44:16111": {
       "error": "''",
-      "id": "56ed5175c3a541888fcbcb784c171e8f",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "152.53.37.119:16111": {
-      "error": "''",
-      "id": "be11d6bafc904f2091cdb785b2674d06",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "60f0e45f35e14025b8c7eb767c21b436",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "152.53.37.182:16111": {
       "error": "''",
-      "id": "7a065fe862d1497aaa3b0fe57e1cb772",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "f2ad6a5345a343418b88ba2228896bba",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "152.53.44.229:16111": {
       "error": "''",
-      "id": "423d5ac901284e50ab5761cc80415e3f",
+      "id": "09c63f466cea42f8bb587a7dba31f01a",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
     "152.53.52.37:16111": {
       "error": "''",
-      "id": "0cfa1980250f4805a8971795df14e774",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "f3fe20c0c66544f78446474be0589163",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "152.53.54.29:16111": {
       "error": "''",
-      "id": "cfb3eeb7d7874e7a90082621ae9f02fc",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "7852aa1925f4436685e2505f43e9e393",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "152.53.65.90:16111": {
       "error": "''",
-      "id": "795bc71c3c6d4ae6a7c6c66622d3535f",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "152.53.81.116:16111": {
-      "error": "''",
-      "id": "2cda509ef8f14ff4b9e65c0826923201",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "7fffe9952afe4c2e8524c8d58bc1d62f",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "152.53.82.215:16111": {
       "error": "''",
-      "id": "58a2d1a2444649118f95780bb555b5cf",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "cdaa173060a64ba99e92c9a0ed212051",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "152.53.85.16:16111": {
       "error": "''",
-      "id": "cffba83b824c494faa0e6358fd2c2667",
+      "id": "df0beadc01b145d687c6471ffccb8186",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
     "152.53.88.50:16111": {
       "error": "''",
-      "id": "c716515edd8d42628ac4f33f6e3d2205",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "7c1016ee07184a1ababbc19486dc923b",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "154.38.169.229:16111": {
+    "153.92.209.110:16111": {
       "error": "''",
-      "id": "a8bd3302c1b64b3aa4762b92077ca89e",
-      "kaspad": "/kaspad:0.16.1/kaspad:0.16.1/",
-      "loc": ""
-    },
-    "154.53.57.7:16111": {
-      "error": "''",
-      "id": "339779ae704774dae1053716dae841e4",
-      "kaspad": "/kaspad:0.12.17/kaspad:0.12.17/",
-      "loc": ""
-    },
-    "154.53.60.134:16111": {
-      "error": "''",
-      "id": "28ed673c7bdb4ced891f9cedaf745e1b",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "155.133.26.19:16111": {
-      "error": "''",
-      "id": "a45a2437b6fc4be281e2b8c7d17ef809",
-      "kaspad": "/kaspad:0.13.0/kaspad:0.13.0/",
+      "id": "68efdd32109f4beeb488d736483a78ab",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "157.90.201.188:16111": {
       "error": "''",
-      "id": "dd415a3f6e984c83b43187f81d4961a6",
+      "id": "93743b7c477f493aa9f33c4e0f3e1715",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "loc": ""
+    },
+    "158.174.60.39:40122": {
+      "error": "''",
+      "id": "809caa4dc05c4f159b15c427662d0448",
+      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
+      "loc": ""
+    },
+    "158.69.213.206:16111": {
+      "error": "''",
+      "id": "26bf1520e9a3474fb449cf63e05b026c",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "162.55.100.124:16111": {
       "error": "''",
-      "id": "a1aa8b7425434c61952a510cdd185555",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "162.55.103.37:16111": {
-      "error": "''",
-      "id": "d817e384bcc14e2c8481cc6e512731a0",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "164.68.121.29:16111": {
-      "error": "''",
-      "id": "2d09d5b60c2540ae9963dd0ace08efb8",
+      "id": "781277a3eb6743298dc7e1d8fd69c05d",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
     "167.179.147.155:16111": {
       "error": "''",
-      "id": "6da997fb4c604738a8008a7603f35814",
-      "kaspad": "/kaspad:0.16.1/kaspad:0.16.1/",
+      "id": "6eda7cb2111b45fca0845e9e253553ae",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "167.235.168.144:16111": {
       "error": "''",
-      "id": "d31f4975cd404ff79164fb433e64a464",
+      "id": "d1058d41b9ed451784e798728e57ce05",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
@@ -518,38 +392,44 @@
     },
     "168.119.136.176:16111": {
       "error": "''",
-      "id": "7d827b1e4b454c7dab4cf8e77c2f8aeb",
+      "id": "18107b1f6b974126a57754dc6bb8a74b",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
-    "170.64.145.134:16111": {
+    "170.62.4.74:16111": {
       "error": "''",
-      "id": "d7dcfefaeeac41debb67b7b47c367de8",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "a5deb00feb994ae19759630e4640ae29",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "173.184.220.192:35506": {
+    "170.62.4.74:48478": {
       "error": "''",
-      "id": "7d9c9ff9efaa42ebab9bbd2d1381267a",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
+      "id": "a5deb00feb994ae19759630e4640ae29",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "172.232.27.134:16111": {
+      "error": "''",
+      "id": "6da58a7e36e6443696abb85cc4709259",
+      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
     "174.109.136.162:16111": {
       "error": "''",
-      "id": "fc671248f0ec48bd8d5bc457c1eb69d5",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "20243b0ce2ef44f894fc6271da1bd3c1",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "174.180.54.166:16111": {
+    "174.93.212.238:16111": {
       "error": "''",
-      "id": "5daad9a91d9617db233bd039e602356c",
-      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
+      "id": "09537b71d09f44d29f32fe287f0f6eaa",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "176.78.139.191:16111": {
+    "174.93.67.49:16111": {
       "error": "''",
-      "id": "8d6b3d60d2a74e9cbabbb2619ebaec3b",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "9d500d307b184eeb9e4ccce456c69c0d",
+      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
       "loc": ""
     },
     "176.9.4.4:16111": {
@@ -560,218 +440,188 @@
     },
     "178.16.137.218:16111": {
       "error": "''",
-      "id": "af36437658714e1c9b460bc03eb5e1fe",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "18.177.241.6:16111": {
-      "error": "''",
-      "id": "73388921b78240bbac6e665a98daff97",
-      "kaspad": "/kaspad:0.15.2/kaspad:0.15.2/",
-      "loc": ""
-    },
-    "184.178.58.60:16111": {
-      "error": "''",
-      "id": "74b2bc4570344dee811174fe587e3452",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "661c18d6aaa847b591cd4be33899f12c",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "184.185.139.143:16111": {
       "error": "''",
-      "id": "026c1e9e46294c18a88121a22d1ec863",
+      "id": "79431c47b82f4a9ea3a62f7ab6450c1b",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
-    "185.199.53.250:16111": {
+    "184.83.3.64:16111": {
       "error": "''",
-      "id": "ffb271628550403989c2ba36a9c3cfaf",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "005f4b568cfb4c3a8e9f7d8aafa6478b",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "185.237.100.156:16111": {
+    "185.82.238.17:16111": {
       "error": "''",
-      "id": "4ce48ef7b1f34160bb8174063be4f8d2",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "185.238.3.64:16111": {
-      "error": "''",
-      "id": "f5db166674544ed398f2c4a6b493a375",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "076ee52ba39c4e81965bacef673fdd37",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "188.120.253.149:16111": {
       "error": "''",
-      "id": "e1ddb06044034d25973bc4af7aeb9073",
+      "id": "d595ebbdc93f44bd81b57886b4af7e46",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "loc": ""
+    },
+    "188.192.224.98:16111": {
+      "error": "''",
+      "id": "8417fca91116419b8777c12be61b68cd",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "188.194.161.209:16111": {
       "error": "''",
-      "id": "371e3807337b494ca5405e0c012527c6",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
-      "loc": ""
-    },
-    "188.208.196.108:16111": {
-      "error": "''",
-      "id": "46211756ce664b6aaaaac8c3b0c2cc1b",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "188.226.83.207:16111": {
-      "error": "''",
-      "id": "d6867c8163bb46efbda9ede2d85e51a7",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "188.255.156.145:16111": {
-      "error": "''",
-      "id": "00dcc3e95e6341c38ef4c9610f3854a3",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "61a9032ef49d40fd950693eba4668639",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "188.63.232.45:16111": {
       "error": "''",
-      "id": "e8ac5e7e8adf425191c2366e5cf4ebd6",
+      "id": "6356eea89aae4e4eb45d482eb9acb6e2",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
       "loc": ""
     },
-    "193.159.169.252:16111": {
+    "191.101.14.5:16111": {
       "error": "''",
-      "id": "2c73e3ad413a4180bb796d8631ac9459",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(in_memory_of_JimmY)/",
+      "id": "68d2fe7ac3c24f4cb1af6aa8d9d96667",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "193.201.88.104:16111": {
+    "191.83.174.124:16111": {
       "error": "''",
-      "id": "885fbc422417443695c13a09d823c45e",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "03de2bcbc50d45e390f161c47a0e2220",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "193.164.205.249:16111": {
+      "error": "''",
+      "id": "bed7fd298cd04a0487448a8bd02ede06",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "193.39.12.209:16111": {
       "error": "''",
-      "id": "ab001e1f6a97490886b60a3b136b6594",
+      "id": "0d85af7d6c804b429429a35f9a76e0bc",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(GoGPool)/",
-      "loc": ""
-    },
-    "194.164.200.63:16111": {
-      "error": "''",
-      "id": "32fb8017666e49e089cf246f6f57c56b",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "194.164.58.16:16111": {
-      "error": "''",
-      "id": "37823c67a0a44b8f9c2918cb90a3e945",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
     "194.164.59.13:16111": {
       "error": "''",
-      "id": "55d0f8f3664b4b259afe3c5229b8000b",
+      "id": "1550da7c44b443918a7010b040bdc70a",
       "kaspad": "/kaspad:0.15.2/kaspad:0.15.2/",
       "loc": ""
     },
-    "194.238.24.192:16111": {
+    "194.31.52.114:16111": {
       "error": "''",
-      "id": "cc27036d294f48e6a7a1e9a6f4c972a5",
-      "kaspad": "/kaspad:0.15.2/kaspad:0.15.2/",
+      "id": "4e8ecffad81d474696b330878bdc5dd9",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "195.20.219.136:16111": {
+    "195.35.37.145:16111": {
       "error": "''",
-      "id": "2e2890f05c7820389903bdd0b60f1180",
-      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
+      "id": "abbc5c01a089416ead8f4e87eb07bf12",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "195.58.58.228:16111": {
       "error": "''",
-      "id": "cc918ac4dd0949389c78c52bc04986c3",
+      "id": "05959bc8fb8c41ef8697c732db37fcc5",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "204.13.237.70:16111": {
+      "error": "''",
+      "id": "ddcbfab7e38440e6bdb4615667cc4890",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
-    "198.52.142.144:16111": {
+    "208.70.98.6:16111": {
       "error": "''",
-      "id": "7ddff6cb07c743679df6f80b8e1189f6",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "96216fbf1008478abbedf63eee974992",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "198.58.245.1:16111": {
+    "208.87.131.142:16111": {
       "error": "''",
-      "id": "5f282b4dcfa648a810e2c21e8138df41",
-      "kaspad": "/kaspad:0.12.14/kaspad:0.12.14(kdx_2.12.8)/",
+      "id": "61b196e1a1ff4fa7a9c23dd2ca121795",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "209.147.106.67:16111": {
+      "error": "''",
+      "id": "8e6bf2fcc9024085be7bff31fc018af8",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "213.193.83.251:16111": {
       "error": "''",
-      "id": "70de357e4f8540dba0ca8d1e73dc6c6c",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "402d1cabf1a446f1a17396f27e4e9473",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "213.199.40.239:16111": {
       "error": "''",
-      "id": "c13c416c5a234426b08922d8e1e00200",
+      "id": "e4e5cf1ea9db480aaf395baa3bfa86f0",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
-    "213.199.56.32:16111": {
+    "216.116.246.152:16111": {
       "error": "''",
-      "id": "5e9e5d60c1a24567932718e953664d10",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "1ccf92d1308f4295aeca0e86b89cd97b",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "216.232.76.52:16111": {
+    "216.67.63.216:16111": {
       "error": "''",
-      "id": "beed7c3b45f94c77b86cd49bc929312d",
+      "id": "082c478441d740a3ac5b154c8509d799",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
     "217.154.13.10:16111": {
       "error": "''",
-      "id": "5d661483f6f34fc68d98585067425bd3",
+      "id": "2a6bd01e25e94fd187564f6671facc98",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
-    "217.154.87.114:16111": {
+    "217.154.208.198:16111": {
       "error": "''",
-      "id": "2258b2a2e0c948aa8b4cacdf725d58a9",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "217.79.181.93:16111": {
-      "error": "''",
-      "id": "4b70a5e803e149b4bbb9d8cd6d36da14",
-      "kaspad": "/kaspad:0.16.1/kaspad:0.16.1/",
-      "loc": ""
-    },
-    "220.134.85.18:16111": {
-      "error": "''",
-      "id": "b19695026c114504b51f49fb429e0e8e",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "b8180338c3d4415b84cbf5ca5f2b3bb3",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "23.118.8.163:16111": {
       "error": "''",
-      "id": "a6450b345d5243ce9e8be65282c779b4",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "a5a203c24c2f4811a1da27fff93ea8c3",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "23.118.8.164:16111": {
+      "error": "''",
+      "id": "f3fe20c0c66544f78446474be0589163",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "23.118.8.166:16111": {
       "error": "''",
-      "id": "8af6df99f35745588f0a4e49fd14aeee",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "2d21b2a0875e4fcbadf58b54414f5b1d",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "23.118.8.168:16111": {
       "error": "''",
-      "id": "b74caaf52ddb4829924cf06f1aa41aa9",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "9f9a9a79227c4a2192e5bb0ada68ab73",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "23.17.225.200:16111": {
+    "23.16.95.171:16111": {
       "error": "''",
-      "id": "e8f65a9fbee7e76cebd8159fcaccd888",
-      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
+      "id": "c6dc9e453329407a8efcfc8e5b610456",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "23.88.70.20:16111": {
@@ -780,52 +630,76 @@
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
-    "24.2.27.145:16111": {
+    "27.32.183.64:16111": {
       "error": "''",
-      "id": "e79b16ca38034f1babece4b5a37191d7",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "3.140.121.42:16111": {
-      "error": "''",
-      "id": "dac9cfe434b7405399e7556ae9d9f6eb",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "f19efb2ded864dd5af343bb1d3a65fb0",
+      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
       "loc": ""
     },
     "3.145.160.55:16111": {
       "error": "''",
-      "id": "7eacaeaf53be4c06b92303b9fcda1546",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "3.221.200.128:16111": {
-      "error": "''",
-      "id": "e28e860a24ab49afbeb5153d925aa104",
+      "id": "8cc6be22ca714eaa8a8321038cfee1e7",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
     "3.68.128.228:16111": {
       "error": "''",
-      "id": "850174959ede467ca0cc1b6f84bac0fb",
+      "id": "48e9177f472242e892c0a0a9ddb07362",
+      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "loc": ""
+    },
+    "31.97.100.30:16111": {
+      "error": "''",
+      "id": "62e899ed196a43feb98e51cda7e483e8",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "31.97.134.47:16111": {
+      "error": "''",
+      "id": "8d2c24a9633d46dda797f6918cda8427",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "31.97.203.144:16111": {
+      "error": "''",
+      "id": "fe8f2f3edb65481c8b2ea418d0c04da5",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "31.97.203.175:16111": {
+      "error": "''",
+      "id": "e9fd8e57dee14c8cb22a54df9f12f667",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "31.97.243.14:16111": {
+      "error": "''",
+      "id": "d3d88a7ccb954e36aa441828309eb7f1",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "31.97.73.165:16111": {
+      "error": "''",
+      "id": "e1a94e0d7ce641699459dd00816d5556",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "35.172.17.73:16111": {
+      "error": "''",
+      "id": "4d39369cc51d4adabc112dc94185729d",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
     "37.120.164.199:16111": {
       "error": "''",
-      "id": "4d606ab5712c4acbbeee340bdb1d3e0a",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "37.153.6.249:16111": {
-      "error": "''",
-      "id": "5abdb7b27e69478aaa292a5407141cf7",
-      "kaspad": "/kaspad:0.16.1/kaspad:0.16.1/",
+      "id": "90cab128951b4bbea933b0e04618c09d",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "37.221.197.208:16111": {
       "error": "''",
-      "id": "53c544bf1889416b82e77aa0612aa7de",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "2a22090cfa13488b909b91da4a54466e",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "37.27.12.216:16111": {
@@ -836,122 +710,152 @@
     },
     "37.27.227.251:16111": {
       "error": "''",
-      "id": "f057f58f7c0540479baeda9cfe0addcd",
+      "id": "2e232bb0a6e14c498d1cac68bf5ea86a",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
     "37.27.231.155:16111": {
       "error": "''",
-      "id": "3e208d5cb40c480a82cc931df41229bc",
+      "id": "77fba60e82d648239163a8b2c782e171",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
     "37.35.115.245:16111": {
       "error": "''",
-      "id": "03606b3d3f504c10beb5726e9969874c",
+      "id": "f626762209a249b2a6b0c8f9fc34687c",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
     "38.242.141.200:16111": {
       "error": "''",
-      "id": "7a6ea58f8e114a8a8791c514de263493",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "84a5570f3ef04144bf644b52f22d2dc7",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "38.242.201.109:16111": {
+    "38.242.216.122:16111": {
       "error": "''",
-      "id": "68d5892dadc14ee3a12845b7e53160b5",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "56a60222090f489db7a55d43cc1fb8ec",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "38.54.9.236:16111": {
       "error": "''",
-      "id": "d923021377e2a0170a1e2238e4a4b7a4",
+      "id": "01e00388674d9b0f42ff7e1b0eb9d395",
       "kaspad": "/kaspad:0.12.17/kaspad:0.12.17/",
+      "loc": ""
+    },
+    "45.10.160.253:16111": {
+      "error": "''",
+      "id": "791ee7830cf943ff8379986dea12a51f",
+      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "loc": ""
+    },
+    "45.157.217.55:16111": {
+      "error": "''",
+      "id": "22ae5bf9cddd4e7f8a1c9af9bb030b86",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "45.159.231.211:16111": {
       "error": "''",
-      "id": "d43d41b802eb498d923316858c946a1b",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "656ea5467d9546179c203aa195723cf8",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "46.136.28.243:16111": {
+      "error": "''",
+      "id": "47a64b2829c94705b3a631f798eb63eb",
+      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
+      "loc": ""
+    },
+    "46.150.176.222:16111": {
+      "error": "''",
+      "id": "cc9a5cb3a68548c5ae0d54150f65e1c0",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "46.202.143.214:16111": {
       "error": "''",
-      "id": "75deb853bce24e8c99d4501922a653f6",
+      "id": "0d36907fc90a4f638b5a442bb8822f85",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
-    "46.250.240.101:16111": {
+    "46.202.195.46:16111": {
       "error": "''",
-      "id": "557d4fe7a75b4ad89685a8ac2511611f",
-      "kaspad": "/kaspad:0.15.1/kaspad:0.15.1/",
+      "id": "9a9a5d2e504b45488e5dab5e7c0c320d",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "47.239.229.77:16111": {
+    "46.21.250.122:16111": {
       "error": "''",
-      "id": "06e7e10df6bf4669af1493605a1ad6eb",
+      "id": "06d31f425bd640c686e0ae4265dbb67c",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "loc": ""
+    },
+    "46.249.191.157:16111": {
+      "error": "''",
+      "id": "73b4cfea28be45288f2c72e28ca4f265",
+      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
       "loc": ""
     },
     "47.36.160.242:16111": {
       "error": "''",
-      "id": "986606d690e746fd938b34b5ac948833",
-      "kaspad": "/kaspad:0.17.0/kaspad:0.17.0/",
+      "id": "22645f1ecc28454c88d3700cbe90df51",
+      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
       "loc": ""
     },
-    "47.41.131.64:16111": {
+    "5.181.124.76:16111": {
       "error": "''",
-      "id": "0ec5af2dba20f12e70d570806451146f",
-      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
+      "id": "4ac648f18f9d44a68bdde0df715b4cfd",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "47.61.248.13:16111": {
+    "5.183.9.64:16111": {
       "error": "''",
-      "id": "8a855b9042e3400db7d4db87cbd09f22",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "5.161.65.161:16111": {
-      "error": "''",
-      "id": "3adde84e1afe4d23a24103e145fac7b3",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "5e98293d22ec4b8d85478d29d0b0a9a7",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "50.72.61.175:16111": {
       "error": "''",
-      "id": "8ba5fdc8cf084839bc6a9a40e17525fa",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "a752edfc630a4078960ca11749abb8c2",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "51.159.201.77:16111": {
       "error": "''",
-      "id": "852463955f5a4a8ebff615552ee51ec2",
+      "id": "140857eefd034da89660e18ced1d9c6d",
       "kaspad": "/kaspad:0.1.7/kaspad:0.1.7/",
       "loc": ""
     },
     "54.241.178.162:16111": {
       "error": "''",
-      "id": "b342a05bc0b74b02b986fbbfcab72053",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "ca75fd3b52e84a6695e9072a6207243d",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "54.39.156.234:16111": {
       "error": "''",
-      "id": "dc081d9beece47bb91e85745d95e6eb8",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "743bc466a13343b890fe6f744e16df9a",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "57.129.38.168:16111": {
+      "error": "''",
+      "id": "534e30af2aa5417a8e073675cb6ebe8f",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "57.129.52.113:16111": {
       "error": "''",
-      "id": "d1f1176c7a2047038ad2c08da9d07e97",
+      "id": "b8600f5ee7c545d2a85eee9838e8b9f2",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
     "57.129.84.149:16111": {
       "error": "''",
-      "id": "c8786ab76c0b47f784ffe2b5c6ced1d5",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "8607da0ecb024d73b4d9f7e1a380b4a0",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "62.210.95.175:16111": {
@@ -960,22 +864,28 @@
       "kaspad": "/kaspad:0.15.2/kaspad:0.15.2/",
       "loc": ""
     },
-    "62.72.26.121:16111": {
+    "62.238.232.135:16111": {
       "error": "''",
-      "id": "4bb4ee187ce54aacaeb9b9a73cfc3d94",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "b5b1b824cc134358a543b41ca80e026e",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "62.72.18.229:16111": {
+      "error": "''",
+      "id": "711409f76b8b40e5a5274ad4f041dda6",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "62.84.189.5:16111": {
       "error": "''",
-      "id": "7c6c810b88a845ff93982c0305b67d55",
+      "id": "87f167a4504c4eb6b4b1b84af1605f86",
       "kaspad": "/kaspad:0.15.2/kaspad:0.15.2/",
       "loc": ""
     },
-    "64.22.18.34:16111": {
+    "64.20.53.98:16111": {
       "error": "''",
-      "id": "ad1c4893e43792af10d22c892ffe6c28",
-      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
+      "id": "732dcec365e54a7e9826a2e3d07f9b5c",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "64.71.185.54:16111": {
@@ -992,8 +902,8 @@
     },
     "65.109.35.168:16111": {
       "error": "''",
-      "id": "762e40ffda19463a90ac8fa5fcdb2b62",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "ba2498c8bafe45afa5690584079092a8",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "65.109.78.6:16111": {
@@ -1002,226 +912,178 @@
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
-    "66.52.237.30:16111": {
+    "66.115.219.109:16111": {
       "error": "''",
-      "id": "fbbbd8e78c864800861f06974a246d14",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "793a7767c3b741f599d1946a79cc51f6",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "66.23.234.250:16111": {
+      "error": "''",
+      "id": "8b416abe791842a3ba028a2019c470db",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "66.94.120.76:16111": {
       "error": "''",
-      "id": "5e7e7ea33bb745bfb20a2c6374f1d08e",
+      "id": "efa20ca46eaa4cb69e8beb14851fae30",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "loc": ""
+    },
+    "66.96.83.164:16111": {
+      "error": "''",
+      "id": "7da83c01998349249e3294abe627b448",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "68.108.6.192:16111": {
       "error": "''",
-      "id": "5afcabb4d8d24c2b88396c9868f6ff48",
+      "id": "79e8210168ab4cad9319384bf9f231fb",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
       "loc": ""
     },
-    "68.47.72.141:16111": {
+    "69.72.83.82:16111": {
       "error": "''",
-      "id": "2be6d4f07c23439ca28670d40bff89bd",
+      "id": "2ecf91785e6c4e14ab519820a93cf4bb",
+      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "loc": ""
+    },
+    "70.126.161.16:16111": {
+      "error": "''",
+      "id": "fec6f58e9f6547c691675ed6a7212c1c",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "70.64.36.169:16111": {
+      "error": "''",
+      "id": "e38965068bc44342ab0b86d9d246b92b",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
       "loc": ""
     },
-    "70.177.179.193:16111": {
+    "72.28.135.10:16111": {
       "error": "''",
-      "id": "6868869f7dde49b485f0b4fa0934056c",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "e6fbde9581d045e8946ecb81b85426a8",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "70.178.2.172:16111": {
+    "72.60.131.15:16111": {
       "error": "''",
-      "id": "60107e652c2546b89d2e57e6cd19096f",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "ef9223b3495b444fbaf8421bbc64bda3",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "70.179.46.52:16111": {
+    "72.60.132.96:16111": {
       "error": "''",
-      "id": "846fb62412ea474a94e74540d4d5d476",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "3aa5d1ef78734b83948b1a127457ce75",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "70.182.244.107:16111": {
+    "72.60.196.63:16111": {
       "error": "''",
-      "id": "c0bc2770c3b04f0686d9b4d2c0ae32ae",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "15d9979d6fe94f55818b5e8884b83406",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "70.182.244.107:34065": {
+    "73.18.200.226:16111": {
       "error": "''",
-      "id": "c0bc2770c3b04f0686d9b4d2c0ae32ae",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "70.182.244.107:61033": {
-      "error": "''",
-      "id": "c0bc2770c3b04f0686d9b4d2c0ae32ae",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "71.69.75.191:16111": {
-      "error": "''",
-      "id": "ff9ee088766f47a4853733f8e1fbd562",
+      "id": "8118f7186c464a2aa6c8aeb06fa0cad7",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
       "loc": ""
     },
-    "73.56.252.44:16111": {
+    "73.85.175.116:16111": {
       "error": "''",
-      "id": "a72db805e3094dc194b505b06cfa2ca8",
-      "kaspad": "/kaspad:0.15.1/kaspad:0.15.1(kaspa-ng:0.3.0-a86f9a7)/",
-      "loc": ""
-    },
-    "74.101.100.173:16111": {
-      "error": "''",
-      "id": "15315fb1b6465fbd96469b0af554d7db",
-      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
-      "loc": ""
-    },
-    "74.96.68.115:16111": {
-      "error": "''",
-      "id": "c5c6ac50bc141f6b4b2264209aed2a68",
-      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
+      "id": "5aece563d6bd496d9f085592152d4cb2",
+      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
       "loc": ""
     },
     "75.130.145.1:16111": {
       "error": "''",
-      "id": "3bc35c5dd30c453ca324921d8cc929e4",
-      "kaspad": "/kaspad:0.15.2/kaspad:0.15.2/",
+      "id": "b8f4ec14f7154d058fa0a992a47defe2",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "75.46.154.168:16111": {
       "error": "''",
-      "id": "2c92d83f7c7a44f1a7caa82562355776",
+      "id": "e90a6beed0eb4252b5818fb3fc76ecf8",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "75.63.211.95:16111": {
-      "error": "''",
-      "id": "8ef2958f4daa4cde9cce1b9963b25aef",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "75.98.112.62:16111": {
-      "error": "''",
-      "id": "437fbf5cd6dd4e8d89b992b9ee8b7a7f",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "76.105.234.123:16111": {
-      "error": "''",
-      "id": "a73c80bc2a3f2dc8b1b8f1809d6ab3bd",
-      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
-      "loc": ""
-    },
-    "76.151.7.63:16111": {
-      "error": "''",
-      "id": "80bfcdc3b2819d1b8d18f636e4dda8bb",
-      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
-      "loc": ""
-    },
-    "76.71.217.213:16111": {
-      "error": "''",
-      "id": "26cafc0826872e420214f5e0b29632c1",
-      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
       "loc": ""
     },
     "79.137.67.110:16111": {
       "error": "''",
-      "id": "cfa88deaebc540a8aee5ef4e4c7ce017",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "cb93967fb5bc48f0a695e4181b19e35e",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "79.141.68.102:1402": {
+      "error": "''",
+      "id": "ebfe1ff383cb4be39cfd9ef416771876",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "79.160.218.211:16111": {
       "error": "''",
-      "id": "7c08a66fe003480e9896516752fa3454",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "8.217.58.218:16111": {
-      "error": "''",
-      "id": "617c395935349f4a1d1bff0cd3663430",
-      "kaspad": "/kaspad:0.12.17/kaspad:0.12.17/",
-      "loc": ""
-    },
-    "8.218.40.182:16111": {
-      "error": "''",
-      "id": "bd49034f7a46470da7af09034f006ea6",
-      "kaspad": "/kaspad:0.16.1/kaspad:0.16.1/",
+      "id": "9ec78b9d38294ee19f385536c0f9eae2",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "80.11.61.207:16111": {
       "error": "''",
-      "id": "9878ad3582d8476d810576b47bdfb26a",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "104f9a4e39b14ad1ba79a77d9c127272",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "80.5.128.240:16111": {
+      "error": "''",
+      "id": "cf3fc72d50a3420fa0e1466734f8562d",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "81.163.20.40:16111": {
       "error": "''",
-      "id": "d5ed8b43ef9c4a1c918a1021eed15e8a",
-      "kaspad": "/kaspad:0.17.0/kaspad:0.17.0/",
-      "loc": ""
-    },
-    "81.177.217.29:1402": {
-      "error": "''",
-      "id": "56e1bcd75d214b94b81ef7d1e0dcc7c6",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "cd21a21aa2df415ab27e969830a917ef",
+      "kaspad": "/kaspad:0.12.16/kaspad:0.12.16/",
       "loc": ""
     },
     "82.165.188.245:16111": {
       "error": "''",
-      "id": "239b2d73d131445f9e4317ebe519a5c9",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "82.166.83.140:16111": {
-      "error": "''",
-      "id": "f4ed2437e92c49a1b8995c7dcadec723",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "82.64.165.247:16111": {
-      "error": "''",
-      "id": "64db380f1e3b55d29ae52e239d2d7aac",
-      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
+      "id": "1f67b0706235437b90a7cd8c858fa5af",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "82.66.26.62:16111": {
       "error": "''",
-      "id": "f1d58d5f7a5d4768a0875b480ca5c6f6",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "158162d039fe47239b0aa169decafdd0",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "82.66.82.52:16111": {
       "error": "''",
-      "id": "21a1494fc83341a782e3615341b49268",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "6596d9ff9b4f4e1b9ebe9d96d244bc4b",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "82.67.4.67:16111": {
       "error": "''",
-      "id": "25528d541aad4698bf8b3e0a0aaba265",
+      "id": "46911c04c9eb4e1c83409f441c4631b7",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "loc": ""
+    },
+    "82.67.98.251:16111": {
+      "error": "''",
+      "id": "b982bfd0403a4c8e82ea09786ca976fc",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "83.78.96.42:16111": {
       "error": "''",
-      "id": "1f8a84b950b74b6e87b408724d5b8dcf",
+      "id": "dc2c5871cbc947ceb6b97310ea13e514",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
-    "84.247.131.3:16111": {
+    "84.247.153.172:16111": {
       "error": "''",
-      "id": "d1a7be446c06429f08034c8ee9455754",
-      "kaspad": "/kaspad:0.12.17/kaspad:0.12.17/",
-      "loc": ""
-    },
-    "84.32.220.48:16111": {
-      "error": "''",
-      "id": "05398c236eae013886b44b9628f1b80d",
-      "kaspad": "/kaspad:0.12.19/kaspad:0.12.19/",
+      "id": "b87c782187074d3e82e17389c124f3c0",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "84.32.32.37:16111": {
@@ -1230,148 +1092,160 @@
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
-    "85.130.193.243:16111": {
+    "85.198.82.17:1402": {
       "error": "''",
-      "id": "bf8450fa0208492ba0dd98082ded43f7",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
+      "id": "75a830afb6994ebe8d612659c35a0efc",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "85.244.236.83:16111": {
+      "error": "''",
+      "id": "b4a9657e7d6d4e398c243756f3182f58",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "85.31.232.94:16111": {
+      "error": "''",
+      "id": "12906b39ecbd4a96b7820efd3daf5469",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "86.10.178.80:16111": {
       "error": "''",
-      "id": "64b900bce51e446f9455a99bb0f87110",
+      "id": "bf99e29e82bf4c149da8a2022ccca607",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
       "loc": ""
     },
-    "86.111.95.170:16111": {
+    "86.246.168.128:16111": {
       "error": "''",
-      "id": "1e5c73c62c6550ad46e31920f2f8e98f",
+      "id": "db90e2b2ff5842c79e40e6005b0784ae",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "86.3.209.192:46910": {
+      "error": "''",
+      "id": "8cbfe24f60af4a4fb871f084acfdd2b4",
+      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
+      "loc": ""
+    },
+    "86.88.65.216:16111": {
+      "error": "''",
+      "id": "45819f509393d2e0959f07843b48558c",
       "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
       "loc": ""
     },
-    "86.60.169.130:16111": {
+    "87.1.117.128:16111": {
       "error": "''",
-      "id": "adc69c819a114edfad6263efd81ca160",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "a89fa813b84d48518b04f6a50bd15e93",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "87.106.98.23:16111": {
       "error": "''",
-      "id": "b7bb255e73fe47c0a716fcb5429706bc",
-      "kaspad": "/kaspad:0.15.2/kaspad:0.15.2/",
-      "loc": ""
-    },
-    "88.133.39.48:16111": {
-      "error": "''",
-      "id": "8e0b5b6b26e901276bf9e194bb28e1ee",
+      "id": "32cde7cfbdf460b3125fa68992e4b865",
       "kaspad": "/kaspad:0.12.17/kaspad:0.12.17/",
       "loc": ""
     },
-    "88.214.58.50:16111": {
+    "87.138.198.41:16111": {
       "error": "''",
-      "id": "1c0631b6efe082df97532c8c0444558c",
-      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
+      "id": "c009d823ad2746aba6b9d710ccf0113c",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1(kaspa)/",
+      "loc": ""
+    },
+    "89.58.15.230:16111": {
+      "error": "''",
+      "id": "5e43558ca36443a98e0641ed889f5e71",
+      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
     "89.58.24.28:16111": {
       "error": "''",
-      "id": "b3243e4f78c449e3be5cbcec3eca4934",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "1f67b0706235437b90a7cd8c858fa5af",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "89.58.25.231:16111": {
       "error": "''",
-      "id": "626e1083a9a34ddcbc67273a789bacb4",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "89.58.46.206:16111": {
-      "error": "''",
-      "id": "64f324bc85ff4831a5c05b4dfeacd344",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "90.101.144.78:16111": {
-      "error": "''",
-      "id": "11a70314086da27fe999705a314afbef",
-      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
+      "id": "1f67b0706235437b90a7cd8c858fa5af",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "91.106.155.180:16111": {
       "error": "''",
-      "id": "bb30b3874e104d468c3a6b20930c45bb",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "91.122.105.234:16111": {
-      "error": "''",
-      "id": "c724ccf299424be19277ebea54d775d3",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "e9088e09aa3543c29f31f4439623a58f",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "91.203.176.216:16111": {
       "error": "''",
-      "id": "d8d11e906c4c46f482b8a0518a605ede",
+      "id": "ce90ff95e3af4123b6524b8ade08bacb",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
-    "91.219.63.20:16111": {
+    "91.47.106.105:16111": {
       "error": "''",
-      "id": "a9f42f3c26e01e4bdde977bbf592f4c7",
-      "kaspad": "/kaspad:0.12.17/kaspad:0.12.17/",
+      "id": "466a2d9e792f409497d943106bb7aaf4",
+      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
       "loc": ""
     },
     "92.112.177.60:16111": {
       "error": "''",
-      "id": "cb68ad191c0d4954ba80c454ef3b36be",
+      "id": "e771fb3521f84e5ba1e1278b84f04739",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "93.237.142.136:16111": {
+      "error": "''",
+      "id": "1d83a14be2764898ab3700fa843d6ad6",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1(kaspa)/",
+      "loc": ""
+    },
+    "95.111.230.55:16111": {
+      "error": "''",
+      "id": "0be85c707ada42f4a4a3b97aefca74a5",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
     "95.208.218.114:16111": {
       "error": "''",
-      "id": "4057d14bbaa848d9974373c1bda621b0",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "95.217.122.29:16111": {
-      "error": "''",
-      "id": "893cdc0a9c303c28a1e63275335d1dc4",
-      "kaspad": "/kaspad:0.12.20/kaspad:0.12.20/",
-      "loc": ""
-    },
-    "95.217.237.37:16111": {
-      "error": "''",
-      "id": "d128310eebf945a986719cdd8f39037a",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "6c9fca12f54544a1af52abb67ab2c9a2",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "95.217.61.211:16111": {
       "error": "''",
-      "id": "913b9cc5be2e46f19d61da7e6a6a985c",
+      "id": "bd2d1d716668416c95287dd72d6d596e",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
-    "96.91.245.193:16111": {
+    "96.19.103.9:16111": {
       "error": "''",
-      "id": "e124bbf51d5a16d3d905ff207b1c2beb",
-      "kaspad": "/kaspad:0.12.17/kaspad:0.12.17/",
+      "id": "6027d94d80d64f4b88069331c9fe8782",
+      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
+      "loc": ""
+    },
+    "96.242.132.244:16111": {
+      "error": "''",
+      "id": "029b71a4524e4046a0d637da6ac8588a",
+      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
+      "loc": ""
+    },
+    "97.100.117.78:16111": {
+      "error": "''",
+      "id": "04e1fa06af0f409296c8e07da973450c",
+      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
       "loc": ""
     },
     "97.77.196.242:16111": {
       "error": "''",
-      "id": "7ecc866f9878473e886d6b0cd36a4fff",
+      "id": "2b496e89db0e44d59c2e8c1df9b90cbb",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
       "loc": ""
     },
-    "ipv6:[::ffff:12b1:f106]:16111": {
+    "ipv6:[::ffff:1710:5fab]:16111": {
       "error": "''",
-      "id": "73388921b78240bbac6e665a98daff97",
-      "kaspad": "/kaspad:0.15.2/kaspad:0.15.2/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:1711:e1c8]:16111": {
-      "error": "''",
-      "id": "e8f65a9fbee7e76cebd8159fcaccd888",
-      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
+      "id": "c6dc9e453329407a8efcfc8e5b610456",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:1758:4614]:16111": {
@@ -1382,31 +1256,79 @@
     },
     "ipv6:[::ffff:1776:8a3]:16111": {
       "error": "''",
-      "id": "a6450b345d5243ce9e8be65282c779b4",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "a5a203c24c2f4811a1da27fff93ea8c3",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:1776:8a4]:16111": {
+      "error": "''",
+      "id": "f3fe20c0c66544f78446474be0589163",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:1776:8a6]:16111": {
       "error": "''",
-      "id": "8af6df99f35745588f0a4e49fd14aeee",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "2d21b2a0875e4fcbadf58b54414f5b1d",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "ipv6:[::ffff:1802:1b91]:16111": {
+    "ipv6:[::ffff:1776:8a8]:16111": {
       "error": "''",
-      "id": "e79b16ca38034f1babece4b5a37191d7",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "9f9a9a79227c4a2192e5bb0ada68ab73",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:1840:363b]:16111": {
+      "error": "''",
+      "id": "cef91cce2277d0ef755f46f78f83c896",
+      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:18f3:b23]:16111": {
+      "error": "''",
+      "id": "6a45f8ca303f97d78298a57dc58581d2",
+      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.9)/",
       "loc": ""
     },
     "ipv6:[::ffff:1d7:4b53]:16111": {
       "error": "''",
-      "id": "ab80c97a18314c8fbbe8356064e5ae80",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "f46e230e9a0848ca93754bbd388c1f13",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "ipv6:[::ffff:1dd:e3f4]:16111": {
+    "ipv6:[::ffff:1f61:49a5]:16111": {
       "error": "''",
-      "id": "c81e6cf5a295436bbc7d9f7fb9b6e61f",
+      "id": "e1a94e0d7ce641699459dd00816d5556",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:1f61:641e]:16111": {
+      "error": "''",
+      "id": "62e899ed196a43feb98e51cda7e483e8",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:1f61:cb90]:16111": {
+      "error": "''",
+      "id": "fe8f2f3edb65481c8b2ea418d0c04da5",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:1f61:cbaf]:16111": {
+      "error": "''",
+      "id": "e9fd8e57dee14c8cb22a54df9f12f667",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:1f61:f30e]:16111": {
+      "error": "''",
+      "id": "d3d88a7ccb954e36aa441828309eb7f1",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:23ac:1149]:16111": {
+      "error": "''",
+      "id": "4d39369cc51d4adabc112dc94185729d",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
@@ -1418,175 +1340,175 @@
     },
     "ipv6:[::ffff:251b:e3fb]:16111": {
       "error": "''",
-      "id": "f057f58f7c0540479baeda9cfe0addcd",
+      "id": "2e232bb0a6e14c498d1cac68bf5ea86a",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
     "ipv6:[::ffff:251b:e79b]:16111": {
       "error": "''",
-      "id": "3e208d5cb40c480a82cc931df41229bc",
+      "id": "77fba60e82d648239163a8b2c782e171",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
     "ipv6:[::ffff:2523:73f5]:16111": {
       "error": "''",
-      "id": "03606b3d3f504c10beb5726e9969874c",
+      "id": "f626762209a249b2a6b0c8f9fc34687c",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
     "ipv6:[::ffff:2578:a4c7]:16111": {
       "error": "''",
-      "id": "4d606ab5712c4acbbeee340bdb1d3e0a",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:2599:6f9]:16111": {
-      "error": "''",
-      "id": "5abdb7b27e69478aaa292a5407141cf7",
-      "kaspad": "/kaspad:0.16.1/kaspad:0.16.1/",
+      "id": "90cab128951b4bbea933b0e04618c09d",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:25dd:c5d0]:16111": {
       "error": "''",
-      "id": "53c544bf1889416b82e77aa0612aa7de",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "2a22090cfa13488b909b91da4a54466e",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:2636:9ec]:16111": {
       "error": "''",
-      "id": "d923021377e2a0170a1e2238e4a4b7a4",
+      "id": "01e00388674d9b0f42ff7e1b0eb9d395",
       "kaspad": "/kaspad:0.12.17/kaspad:0.12.17/",
       "loc": ""
     },
     "ipv6:[::ffff:26f2:8dc8]:16111": {
       "error": "''",
-      "id": "7a6ea58f8e114a8a8791c514de263493",
+      "id": "84a5570f3ef04144bf644b52f22d2dc7",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:26f2:d87a]:16111": {
+      "error": "''",
+      "id": "56a60222090f489db7a55d43cc1fb8ec",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:2d0a:a0fd]:16111": {
+      "error": "''",
+      "id": "791ee7830cf943ff8379986dea12a51f",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
-    "ipv6:[::ffff:26f2:c96d]:16111": {
+    "ipv6:[::ffff:2d9d:d937]:16111": {
       "error": "''",
-      "id": "68d5892dadc14ee3a12845b7e53160b5",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "22ae5bf9cddd4e7f8a1c9af9bb030b86",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:2d9f:e7d3]:16111": {
       "error": "''",
-      "id": "d43d41b802eb498d923316858c946a1b",
+      "id": "656ea5467d9546179c203aa195723cf8",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:2e15:fa7a]:16111": {
+      "error": "''",
+      "id": "06d31f425bd640c686e0ae4265dbb67c",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
-    "ipv6:[::ffff:2e78:3d6e]:55571": {
+    "ipv6:[::ffff:2e88:1cf3]:16111": {
       "error": "''",
-      "id": "45583e9128e34333b076f5ab2312d613",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "47a64b2829c94705b3a631f798eb63eb",
+      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:2e96:b0de]:16111": {
+      "error": "''",
+      "id": "cc9a5cb3a68548c5ae0d54150f65e1c0",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:2eca:8fd6]:16111": {
       "error": "''",
-      "id": "75deb853bce24e8c99d4501922a653f6",
+      "id": "0d36907fc90a4f638b5a442bb8822f85",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
-    "ipv6:[::ffff:2efa:f065]:16111": {
+    "ipv6:[::ffff:2eca:c32e]:16111": {
       "error": "''",
-      "id": "557d4fe7a75b4ad89685a8ac2511611f",
-      "kaspad": "/kaspad:0.15.1/kaspad:0.15.1/",
+      "id": "9a9a5d2e504b45488e5dab5e7c0c320d",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:2ef9:bf9d]:16111": {
+      "error": "''",
+      "id": "73b4cfea28be45288f2c72e28ca4f265",
+      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
       "loc": ""
     },
     "ipv6:[::ffff:2f24:a0f2]:16111": {
       "error": "''",
-      "id": "986606d690e746fd938b34b5ac948833",
-      "kaspad": "/kaspad:0.17.0/kaspad:0.17.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:2f29:8340]:16111": {
-      "error": "''",
-      "id": "0ec5af2dba20f12e70d570806451146f",
-      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:2f3d:f80d]:16111": {
-      "error": "''",
-      "id": "8a855b9042e3400db7d4db87cbd09f22",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:2fef:e54d]:16111": {
-      "error": "''",
-      "id": "06e7e10df6bf4669af1493605a1ad6eb",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "22645f1ecc28454c88d3700cbe90df51",
+      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
       "loc": ""
     },
     "ipv6:[::ffff:3248:3daf]:16111": {
       "error": "''",
-      "id": "8ba5fdc8cf084839bc6a9a40e17525fa",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "a752edfc630a4078960ca11749abb8c2",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:339f:c94d]:16111": {
       "error": "''",
-      "id": "852463955f5a4a8ebff615552ee51ec2",
+      "id": "140857eefd034da89660e18ced1d9c6d",
       "kaspad": "/kaspad:0.1.7/kaspad:0.1.7/",
       "loc": ""
     },
     "ipv6:[::ffff:344:80e4]:16111": {
       "error": "''",
-      "id": "850174959ede467ca0cc1b6f84bac0fb",
+      "id": "48e9177f472242e892c0a0a9ddb07362",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
     "ipv6:[::ffff:3627:9cea]:16111": {
       "error": "''",
-      "id": "dc081d9beece47bb91e85745d95e6eb8",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "743bc466a13343b890fe6f744e16df9a",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:36f1:b2a2]:16111": {
       "error": "''",
-      "id": "b342a05bc0b74b02b986fbbfcab72053",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:38c:792a]:16111": {
-      "error": "''",
-      "id": "dac9cfe434b7405399e7556ae9d9f6eb",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "ca75fd3b52e84a6695e9072a6207243d",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:391:a037]:16111": {
       "error": "''",
-      "id": "7eacaeaf53be4c06b92303b9fcda1546",
+      "id": "8cc6be22ca714eaa8a8321038cfee1e7",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:3981:26a8]:16111": {
+      "error": "''",
+      "id": "534e30af2aa5417a8e073675cb6ebe8f",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:3981:3471]:16111": {
       "error": "''",
-      "id": "d1f1176c7a2047038ad2c08da9d07e97",
+      "id": "b8600f5ee7c545d2a85eee9838e8b9f2",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
     "ipv6:[::ffff:3981:5495]:16111": {
       "error": "''",
-      "id": "c8786ab76c0b47f784ffe2b5c6ced1d5",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "8607da0ecb024d73b4d9f7e1a380b4a0",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "ipv6:[::ffff:3dd:c880]:16111": {
+    "ipv6:[::ffff:3e48:12e5]:16111": {
       "error": "''",
-      "id": "e28e860a24ab49afbeb5153d925aa104",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:3e48:1a79]:16111": {
-      "error": "''",
-      "id": "4bb4ee187ce54aacaeb9b9a73cfc3d94",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "711409f76b8b40e5a5274ad4f041dda6",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:3e54:bd05]:16111": {
       "error": "''",
-      "id": "7c6c810b88a845ff93982c0305b67d55",
+      "id": "87f167a4504c4eb6b4b1b84af1605f86",
       "kaspad": "/kaspad:0.15.2/kaspad:0.15.2/",
       "loc": ""
     },
@@ -1596,10 +1518,16 @@
       "kaspad": "/kaspad:0.15.2/kaspad:0.15.2/",
       "loc": ""
     },
-    "ipv6:[::ffff:4016:1222]:16111": {
+    "ipv6:[::ffff:3eee:e887]:16111": {
       "error": "''",
-      "id": "ad1c4893e43792af10d22c892ffe6c28",
-      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
+      "id": "b5b1b824cc134358a543b41ca80e026e",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:4014:3562]:16111": {
+      "error": "''",
+      "id": "732dcec365e54a7e9826a2e3d07f9b5c",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:4047:b936]:16111": {
@@ -1616,8 +1544,8 @@
     },
     "ipv6:[::ffff:416d:23a8]:16111": {
       "error": "''",
-      "id": "762e40ffda19463a90ac8fa5fcdb2b62",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "ba2498c8bafe45afa5690584079092a8",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:416d:4e06]:16111": {
@@ -1626,208 +1554,184 @@
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
-    "ipv6:[::ffff:41af:925a]:16111": {
+    "ipv6:[::ffff:4217:eafa]:16111": {
       "error": "''",
-      "id": "a58b2ea5aba1a5f7be9ee3600a63c341",
-      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:4234:ed1e]:16111": {
-      "error": "''",
-      "id": "fbbbd8e78c864800861f06974a246d14",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "8b416abe791842a3ba028a2019c470db",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:425e:784c]:16111": {
       "error": "''",
-      "id": "5e7e7ea33bb745bfb20a2c6374f1d08e",
+      "id": "efa20ca46eaa4cb69e8beb14851fae30",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
-    "ipv6:[::ffff:442f:488d]:16111": {
+    "ipv6:[::ffff:4260:53a4]:16111": {
       "error": "''",
-      "id": "2be6d4f07c23439ca28670d40bff89bd",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
+      "id": "7da83c01998349249e3294abe627b448",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:4273:db6d]:16111": {
+      "error": "''",
+      "id": "793a7767c3b741f599d1946a79cc51f6",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:446c:6c0]:16111": {
       "error": "''",
-      "id": "5afcabb4d8d24c2b88396c9868f6ff48",
+      "id": "79e8210168ab4cad9319384bf9f231fb",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
       "loc": ""
     },
-    "ipv6:[::ffff:46b1:b3c1]:16111": {
+    "ipv6:[::ffff:4548:5352]:16111": {
       "error": "''",
-      "id": "6868869f7dde49b485f0b4fa0934056c",
+      "id": "2ecf91785e6c4e14ab519820a93cf4bb",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
-    "ipv6:[::ffff:46b2:2ac]:16111": {
+    "ipv6:[::ffff:4640:24a9]:16111": {
       "error": "''",
-      "id": "60107e652c2546b89d2e57e6cd19096f",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:46b3:2e34]:16111": {
-      "error": "''",
-      "id": "846fb62412ea474a94e74540d4d5d476",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:46b6:f46b]:16111": {
-      "error": "''",
-      "id": "c0bc2770c3b04f0686d9b4d2c0ae32ae",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:46b6:f46b]:34065": {
-      "error": "''",
-      "id": "c0bc2770c3b04f0686d9b4d2c0ae32ae",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:4745:4bbf]:16111": {
-      "error": "''",
-      "id": "ff9ee088766f47a4853733f8e1fbd562",
+      "id": "e38965068bc44342ab0b86d9d246b92b",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
       "loc": ""
     },
-    "ipv6:[::ffff:4907:bc8d]:16111": {
+    "ipv6:[::ffff:4678:b623]:16111": {
       "error": "''",
-      "id": "59ae4441899e67f469dbd73c0d7365f3",
+      "id": "17346ece08f5a3c25b08acb7733ae313",
       "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
       "loc": ""
     },
-    "ipv6:[::ffff:4907:bc8d]:57845": {
+    "ipv6:[::ffff:467e:a110]:16111": {
       "error": "''",
-      "id": "5519f22bef2130d655d9cc8ceeeb6ca3",
+      "id": "fec6f58e9f6547c691675ed6a7212c1c",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:481c:870a]:16111": {
+      "error": "''",
+      "id": "e6fbde9581d045e8946ecb81b85426a8",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:483c:830f]:16111": {
+      "error": "''",
+      "id": "ef9223b3495b444fbaf8421bbc64bda3",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:483c:8460]:16111": {
+      "error": "''",
+      "id": "3aa5d1ef78734b83948b1a127457ce75",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:483c:c43f]:16111": {
+      "error": "''",
+      "id": "15d9979d6fe94f55818b5e8884b83406",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:4901:62a5]:16111": {
+      "error": "''",
+      "id": "7177aee80fec483736f5cfc45bcea978",
       "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
       "loc": ""
     },
-    "ipv6:[::ffff:4938:fc2c]:16111": {
+    "ipv6:[::ffff:4912:c8e2]:16111": {
       "error": "''",
-      "id": "a72db805e3094dc194b505b06cfa2ca8",
-      "kaspad": "/kaspad:0.15.1/kaspad:0.15.1(kaspa-ng:0.3.0-a86f9a7)/",
+      "id": "8118f7186c464a2aa6c8aeb06fa0cad7",
+      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
       "loc": ""
     },
-    "ipv6:[::ffff:4a60:4473]:16111": {
+    "ipv6:[::ffff:4955:af74]:16111": {
       "error": "''",
-      "id": "c5c6ac50bc141f6b4b2264209aed2a68",
-      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:4a65:64ad]:16111": {
-      "error": "''",
-      "id": "15315fb1b6465fbd96469b0af554d7db",
-      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
+      "id": "5aece563d6bd496d9f085592152d4cb2",
+      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
       "loc": ""
     },
     "ipv6:[::ffff:4b2e:9aa8]:16111": {
       "error": "''",
-      "id": "2c92d83f7c7a44f1a7caa82562355776",
+      "id": "e90a6beed0eb4252b5818fb3fc76ecf8",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:4b3f:d35f]:16111": {
-      "error": "''",
-      "id": "8ef2958f4daa4cde9cce1b9963b25aef",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:4b62:703e]:16111": {
-      "error": "''",
-      "id": "437fbf5cd6dd4e8d89b992b9ee8b7a7f",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:4b82:9101]:16111": {
-      "error": "''",
-      "id": "3bc35c5dd30c453ca324921d8cc929e4",
-      "kaspad": "/kaspad:0.15.2/kaspad:0.15.2/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:4c47:d9d5]:16111": {
-      "error": "''",
-      "id": "26cafc0826872e420214f5e0b29632c1",
-      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:4c69:ea7b]:16111": {
-      "error": "''",
-      "id": "a73c80bc2a3f2dc8b1b8f1809d6ab3bd",
-      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:4c97:73f]:16111": {
-      "error": "''",
-      "id": "80bfcdc3b2819d1b8d18f636e4dda8bb",
-      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
       "loc": ""
     },
     "ipv6:[::ffff:4f89:436e]:16111": {
       "error": "''",
-      "id": "cfa88deaebc540a8aee5ef4e4c7ce017",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "cb93967fb5bc48f0a695e4181b19e35e",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:4f8d:4466]:1402": {
+      "error": "''",
+      "id": "ebfe1ff383cb4be39cfd9ef416771876",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:4fa0:dad3]:16111": {
       "error": "''",
-      "id": "7c08a66fe003480e9896516752fa3454",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "9ec78b9d38294ee19f385536c0f9eae2",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:5005:80f0]:16111": {
+      "error": "''",
+      "id": "cf3fc72d50a3420fa0e1466734f8562d",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:500b:3dcf]:16111": {
       "error": "''",
-      "id": "9878ad3582d8476d810576b47bdfb26a",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "104f9a4e39b14ad1ba79a77d9c127272",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:51a3:1428]:16111": {
       "error": "''",
-      "id": "d5ed8b43ef9c4a1c918a1021eed15e8a",
-      "kaspad": "/kaspad:0.17.0/kaspad:0.17.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:51b1:d91d]:1402": {
-      "error": "''",
-      "id": "56e1bcd75d214b94b81ef7d1e0dcc7c6",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:5240:a5f7]:16111": {
-      "error": "''",
-      "id": "64db380f1e3b55d29ae52e239d2d7aac",
-      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
+      "id": "cd21a21aa2df415ab27e969830a917ef",
+      "kaspad": "/kaspad:0.12.16/kaspad:0.12.16/",
       "loc": ""
     },
     "ipv6:[::ffff:5242:1a3e]:16111": {
       "error": "''",
-      "id": "f1d58d5f7a5d4768a0875b480ca5c6f6",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "158162d039fe47239b0aa169decafdd0",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:5242:5234]:16111": {
+      "error": "''",
+      "id": "6596d9ff9b4f4e1b9ebe9d96d244bc4b",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:5243:443]:16111": {
       "error": "''",
-      "id": "25528d541aad4698bf8b3e0a0aaba265",
+      "id": "46911c04c9eb4e1c83409f441c4631b7",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:5243:62fb]:16111": {
+      "error": "''",
+      "id": "b982bfd0403a4c8e82ea09786ca976fc",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:52a5:bcf5]:16111": {
       "error": "''",
-      "id": "239b2d73d131445f9e4317ebe519a5c9",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:52a6:538c]:16111": {
-      "error": "''",
-      "id": "f4ed2437e92c49a1b8995c7dcadec723",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "1f67b0706235437b90a7cd8c858fa5af",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:534e:602a]:16111": {
       "error": "''",
-      "id": "1f8a84b950b74b6e87b408724d5b8dcf",
+      "id": "dc2c5871cbc947ceb6b97310ea13e514",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:53e9:6d3b]:16111": {
+      "error": "''",
+      "id": "07e726b83b1d5e6977a382b87b49ba59",
+      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
       "loc": ""
     },
     "ipv6:[::ffff:5420:2025]:16111": {
@@ -1836,309 +1740,279 @@
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
-    "ipv6:[::ffff:5420:dc30]:16111": {
+    "ipv6:[::ffff:5429:3f0d]:16111": {
       "error": "''",
-      "id": "05398c236eae013886b44b9628f1b80d",
-      "kaspad": "/kaspad:0.12.19/kaspad:0.12.19/",
+      "id": "d2a54a311a75b6c3370e8aace8752bd3",
+      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
       "loc": ""
     },
-    "ipv6:[::ffff:54f7:8303]:16111": {
+    "ipv6:[::ffff:54f7:99ac]:16111": {
       "error": "''",
-      "id": "d1a7be446c06429f08034c8ee9455754",
-      "kaspad": "/kaspad:0.12.17/kaspad:0.12.17/",
+      "id": "b87c782187074d3e82e17389c124f3c0",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "ipv6:[::ffff:5582:c1f3]:16111": {
+    "ipv6:[::ffff:551f:e85e]:16111": {
       "error": "''",
-      "id": "bf8450fa0208492ba0dd98082ded43f7",
+      "id": "12906b39ecbd4a96b7820efd3daf5469",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:55c6:5211]:1402": {
+      "error": "''",
+      "id": "75a830afb6994ebe8d612659c35a0efc",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:5603:d1c0]:46910": {
+      "error": "''",
+      "id": "8cbfe24f60af4a4fb871f084acfdd2b4",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
       "loc": ""
     },
     "ipv6:[::ffff:560a:b250]:16111": {
       "error": "''",
-      "id": "64b900bce51e446f9455a99bb0f87110",
+      "id": "bf99e29e82bf4c149da8a2022ccca607",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
       "loc": ""
     },
-    "ipv6:[::ffff:563c:a982]:16111": {
+    "ipv6:[::ffff:5658:41d8]:16111": {
       "error": "''",
-      "id": "adc69c819a114edfad6263efd81ca160",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "45819f509393d2e0959f07843b48558c",
+      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
       "loc": ""
     },
-    "ipv6:[::ffff:566f:5faa]:16111": {
+    "ipv6:[::ffff:56f6:a880]:16111": {
       "error": "''",
-      "id": "1e5c73c62c6550ad46e31920f2f8e98f",
-      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
+      "id": "db90e2b2ff5842c79e40e6005b0784ae",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:5701:7580]:16111": {
+      "error": "''",
+      "id": "a89fa813b84d48518b04f6a50bd15e93",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:576a:6217]:16111": {
       "error": "''",
-      "id": "b7bb255e73fe47c0a716fcb5429706bc",
-      "kaspad": "/kaspad:0.15.2/kaspad:0.15.2/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:5885:2730]:16111": {
-      "error": "''",
-      "id": "8e0b5b6b26e901276bf9e194bb28e1ee",
+      "id": "32cde7cfbdf460b3125fa68992e4b865",
       "kaspad": "/kaspad:0.12.17/kaspad:0.12.17/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:58d6:3a32]:16111": {
-      "error": "''",
-      "id": "1c0631b6efe082df97532c8c0444558c",
-      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
       "loc": ""
     },
     "ipv6:[::ffff:593a:181c]:16111": {
       "error": "''",
-      "id": "b3243e4f78c449e3be5cbcec3eca4934",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "1f67b0706235437b90a7cd8c858fa5af",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:593a:19e7]:16111": {
       "error": "''",
-      "id": "626e1083a9a34ddcbc67273a789bacb4",
+      "id": "1f67b0706235437b90a7cd8c858fa5af",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:593a:fe6]:16111": {
+      "error": "''",
+      "id": "5e43558ca36443a98e0641ed889f5e71",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
-    "ipv6:[::ffff:593a:2ece]:16111": {
+    "ipv6:[::ffff:5b2f:6a69]:16111": {
       "error": "''",
-      "id": "64f324bc85ff4831a5c05b4dfeacd344",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "466a2d9e792f409497d943106bb7aaf4",
+      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
       "loc": ""
     },
-    "ipv6:[::ffff:5a1:41a1]:16111": {
+    "ipv6:[::ffff:5b5:7c4c]:16111": {
       "error": "''",
-      "id": "3adde84e1afe4d23a24103e145fac7b3",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:5a65:904e]:16111": {
-      "error": "''",
-      "id": "11a70314086da27fe999705a314afbef",
-      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
+      "id": "4ac648f18f9d44a68bdde0df715b4cfd",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:5b6a:9bb4]:16111": {
       "error": "''",
-      "id": "bb30b3874e104d468c3a6b20930c45bb",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "e9088e09aa3543c29f31f4439623a58f",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "ipv6:[::ffff:5b7a:69ea]:16111": {
+    "ipv6:[::ffff:5b7:940]:16111": {
       "error": "''",
-      "id": "c724ccf299424be19277ebea54d775d3",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "5e98293d22ec4b8d85478d29d0b0a9a7",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:5bcb:b0d8]:16111": {
       "error": "''",
-      "id": "d8d11e906c4c46f482b8a0518a605ede",
+      "id": "ce90ff95e3af4123b6524b8ade08bacb",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:5bdb:3f14]:16111": {
-      "error": "''",
-      "id": "a9f42f3c26e01e4bdde977bbf592f4c7",
-      "kaspad": "/kaspad:0.12.17/kaspad:0.12.17/",
       "loc": ""
     },
     "ipv6:[::ffff:5c70:b13c]:16111": {
       "error": "''",
-      "id": "cb68ad191c0d4954ba80c454ef3b36be",
+      "id": "e771fb3521f84e5ba1e1278b84f04739",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:5ded:8e88]:16111": {
+      "error": "''",
+      "id": "1d83a14be2764898ab3700fa843d6ad6",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1(kaspa)/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:5f6f:e637]:16111": {
+      "error": "''",
+      "id": "0be85c707ada42f4a4a3b97aefca74a5",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:5fd0:da72]:16111": {
+      "error": "''",
+      "id": "6c9fca12f54544a1af52abb67ab2c9a2",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:5fd9:3dd3]:16111": {
       "error": "''",
-      "id": "913b9cc5be2e46f19d61da7e6a6a985c",
+      "id": "bd2d1d716668416c95287dd72d6d596e",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
-    "ipv6:[::ffff:5fd9:7a1d]:16111": {
+    "ipv6:[::ffff:6013:6709]:16111": {
       "error": "''",
-      "id": "893cdc0a9c303c28a1e63275335d1dc4",
-      "kaspad": "/kaspad:0.12.20/kaspad:0.12.20/",
+      "id": "6027d94d80d64f4b88069331c9fe8782",
+      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
       "loc": ""
     },
-    "ipv6:[::ffff:5fd9:ed25]:16111": {
+    "ipv6:[::ffff:60f2:84f4]:16111": {
       "error": "''",
-      "id": "d128310eebf945a986719cdd8f39037a",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:605b:f5c1]:16111": {
-      "error": "''",
-      "id": "e124bbf51d5a16d3d905ff207b1c2beb",
-      "kaspad": "/kaspad:0.12.17/kaspad:0.12.17/",
+      "id": "029b71a4524e4046a0d637da6ac8588a",
+      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
       "loc": ""
     },
     "ipv6:[::ffff:614d:c4f2]:16111": {
       "error": "''",
-      "id": "7ecc866f9878473e886d6b0cd36a4fff",
+      "id": "2b496e89db0e44d59c2e8c1df9b90cbb",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
       "loc": ""
     },
-    "ipv6:[::ffff:6408:1e68]:16111": {
+    "ipv6:[::ffff:6164:754e]:16111": {
       "error": "''",
-      "id": "9365a13c2f3c56744838d9c1f99a5138",
+      "id": "04e1fa06af0f409296c8e07da973450c",
+      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:621b:ec51]:16111": {
+      "error": "''",
+      "id": "21124a10cf772ac56b1f7eb9e9cdfcd5",
       "kaspad": "/kaspad:0.12.14/kaspad:0.12.14(kdx_2.12.8)/",
       "loc": ""
     },
-    "ipv6:[::ffff:66d8:4fe8]:16111": {
+    "ipv6:[::ffff:656d:fe2a]:16111": {
       "error": "''",
-      "id": "f543d07a692140e795e8c0d1bc2d268f",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "3635bae0b3d4439284539f36ba8b7254",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:65a1:4126]:16111": {
+      "error": "''",
+      "id": "e78ef224e849067307fe0af559b86ead",
+      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:675f:7160]:16111": {
+      "error": "''",
+      "id": "af4a494f5ad24904b8dbc21f6cbc87d2",
+      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
       "loc": ""
     },
     "ipv6:[::ffff:6b92:39d1]:16111": {
       "error": "''",
-      "id": "5709558d21674dad90fd5b87e382a4c9",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "5e09f548a82945778be0c7450342be54",
+      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
       "loc": ""
     },
-    "ipv6:[::ffff:6bc6:36fa]:16111": {
+    "ipv6:[::ffff:6c02:6bdb]:16111": {
       "error": "''",
-      "id": "c6b92d5dc7d74a0bbedaa36605090367",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "6e6b7e6c5a2c40498f78de9b1c6ac167",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "ipv6:[::ffff:6bdc:e16c]:16111": {
+    "ipv6:[::ffff:6d15:6192]:16111": {
       "error": "''",
-      "id": "ac124d1b3979431889e964037f418ec0",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:6dc4:3244]:16111": {
-      "error": "''",
-      "id": "60b797c878194864a75f9427d5ecbf56",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "b801a748d6174a9ca9c7e94bb6e413fc",
+      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
       "loc": ""
     },
     "ipv6:[::ffff:6dc6:bf69]:16111": {
       "error": "''",
-      "id": "b0b9a9b27da747909a4f3b13663b354c",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:6dec:5a3f]:16111": {
-      "error": "''",
-      "id": "3760333d0761897461620fcd3c2641fc",
-      "kaspad": "/kaspad:0.12.20/kaspad:0.12.20/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:6df8:fa9b]:16111": {
-      "error": "''",
-      "id": "9a992e2c4ee04bf98b0e6f33b97c8279",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:7314:a32c]:16111": {
-      "error": "''",
-      "id": "fd5aa88e230c4eeda7abccd9cbc221d1",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:74ca:8247]:16111": {
-      "error": "''",
-      "id": "70c56051efe6482e81a295700c996b82",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:76c1:4e5b]:16111": {
-      "error": "''",
-      "id": "92bb637ffcb24f9e906bc27864c538a3",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:7a74:a825]:16111": {
-      "error": "''",
-      "id": "099cf9545fc8404bb66ba768cae9dc44",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:7bd0:8601]:16111": {
-      "error": "''",
-      "id": "708abd37b6d14ef181698f4c7c33ce71",
+      "id": "fcf4e0cb619d4d0d954dde9c01390618",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
       "loc": ""
     },
-    "ipv6:[::ffff:8194:1b94]:16111": {
+    "ipv6:[::ffff:6eeb:f473]:16111": {
       "error": "''",
-      "id": "0cc07475bd19436997576305903d7387",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "7fc87175873b2ce18ab67cdb5349df0d",
+      "kaspad": "/kaspad:0.12.17/kaspad:0.12.17/",
       "loc": ""
     },
-    "ipv6:[::ffff:81de:fa1a]:16111": {
+    "ipv6:[::ffff:7315:abb9]:16111": {
       "error": "''",
-      "id": "946c93fdcfc644b6b5cebb7d2abaa432",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "97a3d4f869db40c2afd02b7e48d8a1f6",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:7d1a:cd2f]:16111": {
+      "error": "''",
+      "id": "6fdde37d1fe942ce9768b6b95ab778a4",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:7de5:3a81]:16111": {
+      "error": "''",
+      "id": "ca54a16dc3bd44369cf3ca5e1dc26ce2",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:877d:ced0]:16111": {
       "error": "''",
-      "id": "20f565f894e04cf19952c27dea7ff419",
+      "id": "070114d4b96d4ed18388cba849a6d00b",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
     "ipv6:[::ffff:8783:9168]:16111": {
       "error": "''",
-      "id": "e65748e25b474b33b18b97233193e59c",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "fdd47a65f51e4e399a0f7d6638480371",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:8794:3645]:16111": {
       "error": "''",
-      "id": "53a64c53617e4aa3a63ac3d9f4a4bc13",
-      "kaspad": "/kaspad:0.17.1/kaspad:0.17.1/",
+      "id": "9e56d5cf8b36418e94cf503f3bfaa2b6",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "ipv6:[::ffff:87b5:b1a4]:16111": {
+    "ipv6:[::ffff:8826:d39b]:16111": {
       "error": "''",
-      "id": "b82793e7f2b14123bff29dfcbc4eee55",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "c3d0a4ba5c2045ce8d85c45ca29bda6b",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "ipv6:[::ffff:87b5:b1bd]:16111": {
+    "ipv6:[::ffff:8ac7:af87]:16111": {
       "error": "''",
-      "id": "b82793e7f2b14123bff29dfcbc4eee55",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "b45f7bb129ab4fb1afe92233ea670c93",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "ipv6:[::ffff:89dc:42e1]:16111": {
+    "ipv6:[::ffff:8bb4:de05]:16111": {
       "error": "''",
-      "id": "6a12097514d1e052bdc28aeed457fcb5",
-      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:8a7c:1e4f]:16111": {
-      "error": "''",
-      "id": "6508ff1cf915473691f1a6b58588529b",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:8bb4:d887]:16111": {
-      "error": "''",
-      "id": "129c19c1dee286ce83f03b324b7d193d",
-      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:8c8d:b856]:16111": {
-      "error": "''",
-      "id": "a785b912fc0663b48b40dd2010c3f8da",
-      "kaspad": "/kaspad:0.12.17/kaspad:0.12.17/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:8cba:5c11]:16111": {
-      "error": "''",
-      "id": "35ac237cd6bf4313a314ec478958c0f5",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "12f8e874666d4350b5141114af24d143",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:8d5f:222c]:16511": {
       "error": "''",
-      "id": "b54e5aaa2e394bf4869fb7048a221a44",
+      "id": "eeed16cd5dad4f57892904e49e47a004",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
@@ -2178,34 +2052,10 @@
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
-    "ipv6:[::ffff:8d9:3ada]:16111": {
-      "error": "''",
-      "id": "617c395935349f4a1d1bff0cd3663430",
-      "kaspad": "/kaspad:0.12.17/kaspad:0.12.17/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:8da:28b6]:16111": {
-      "error": "''",
-      "id": "bd49034f7a46470da7af09034f006ea6",
-      "kaspad": "/kaspad:0.16.1/kaspad:0.16.1/",
-      "loc": ""
-    },
     "ipv6:[::ffff:8e84:88df]:16111": {
       "error": "''",
-      "id": "8b2e4277bb1949d2beffd4f02a900b1c",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:8eab:a8ca]:16111": {
-      "error": "''",
-      "id": "88436d6267f3434e90bb92aa87f01abc",
-      "kaspad": "/kaspad:0.15.2/kaspad:0.15.2/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:9006:cc71]:16111": {
-      "error": "''",
-      "id": "0556cbd900b246e084e7e74993e349d5",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
+      "id": "5c1f180623d9fd05cd714fb47e788f55",
+      "kaspad": "/kaspad:0.12.17/kaspad:0.12.17/",
       "loc": ""
     },
     "ipv6:[::ffff:904c:135b]:16111": {
@@ -2214,39 +2064,27 @@
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
-    "ipv6:[::ffff:904c:7103]:16111": {
-      "error": "''",
-      "id": "10714e24aff548fc93571fa8c957e16a",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:907e:9c94]:16111": {
-      "error": "''",
-      "id": "f24059c3c78c4ca5a8a3d530c14041f5",
-      "kaspad": "/kaspad:0.17.1/kaspad:0.17.1/",
-      "loc": ""
-    },
     "ipv6:[::ffff:91ef:ba5]:16111": {
       "error": "''",
-      "id": "cb5c4636bed548f4b47b6f4a91485a85",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "2a0f771335254547b880318cd944f8ca",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:91ef:eff2]:16111": {
       "error": "''",
-      "id": "4737a6b4af5743cd8dab2d9a24d891af",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "708e7b31d54847d0bbb5f78805b612c0",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:9213:18ba]:21016": {
       "error": "''",
-      "id": "3d70a2bec3034dd681aeea4e8cd85db9",
+      "id": "fd9d09763cab4cc2b2f0c69f47c0bf9f",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
     "ipv6:[::ffff:935d:4516]:16111": {
       "error": "''",
-      "id": "737d739c534646e289e5ad86c3ddbeac",
+      "id": "31f399d9fe12439aaeb0e1da548de5dd",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
@@ -2256,22 +2094,46 @@
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
+    "ipv6:[::ffff:9387:4633]:16111": {
+      "error": "''",
+      "id": "e92eabfbbb7a48f3a0c8265c9d8dabdd",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
     "ipv6:[::ffff:9387:46a3]:16111": {
       "error": "''",
-      "id": "86ebf2ae5b4249b39f055eef655098b2",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "16b51867ea3741e799c9bb753c673261",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:93b6:e81c]:16111": {
+      "error": "''",
+      "id": "d703211973b249d78d08c3d50f9a1026",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:9471:bba6]:16111": {
+      "error": "''",
+      "id": "9fe840626f3f4e39bccc2b3c652c4994",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:9471:d493]:16111": {
       "error": "''",
-      "id": "75c8c13c9bf140b2a48fa644461486ea",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "a446cf445df54cf9b097980cefccff87",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "ipv6:[::ffff:94fb:9795]:16111": {
+    "ipv6:[::ffff:94e6:7a8d]:16111": {
       "error": "''",
-      "id": "3709aa7a3ae145bbb861da9f5f3c806b",
-      "kaspad": "/kaspad:0.16.0/kaspad:0.16.0/",
+      "id": "0e51352a5265436bb21a2f053ed1dbf2",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:94e6:7af9]:16111": {
+      "error": "''",
+      "id": "28451873ca894cc986a83697aa29c118",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:9532:653a]:20005": {
@@ -2280,15 +2142,9 @@
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
-    "ipv6:[::ffff:9532:7435]:16111": {
-      "error": "''",
-      "id": "d938f42328224819900142bca34feb53",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
     "ipv6:[::ffff:9532:7448]:20001": {
       "error": "''",
-      "id": "7155aa14e3cd4306b134c202378d5197",
+      "id": "ade6f158a9d6427f97c07b8bb24f7312",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
@@ -2298,112 +2154,64 @@
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
-    "ipv6:[::ffff:9688:5700]:16111": {
-      "error": "''",
-      "id": "18d76c96cd374ddb8f384f0e1b90ac08",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
     "ipv6:[::ffff:9835:12b0]:16111": {
       "error": "''",
-      "id": "2f0fd5d641aa4d6a86dd26fa8000a51c",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:9835:156f]:16111": {
-      "error": "''",
-      "id": "67a5e46aac1e45739e7067941a3c2be3",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:9835:156f]:26111": {
-      "error": "''",
-      "id": "ef41e2f1776caf760867bd54d153b038",
-      "kaspad": "/kaspad:0.12.17/kaspad:0.12.17/",
+      "id": "52b72571328f4cea99a485720cc8cdcc",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:9835:242c]:16111": {
       "error": "''",
-      "id": "56ed5175c3a541888fcbcb784c171e8f",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:9835:2577]:16111": {
-      "error": "''",
-      "id": "be11d6bafc904f2091cdb785b2674d06",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "60f0e45f35e14025b8c7eb767c21b436",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:9835:25b6]:16111": {
       "error": "''",
-      "id": "7a065fe862d1497aaa3b0fe57e1cb772",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "f2ad6a5345a343418b88ba2228896bba",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:9835:2ce5]:16111": {
       "error": "''",
-      "id": "423d5ac901284e50ab5761cc80415e3f",
+      "id": "09c63f466cea42f8bb587a7dba31f01a",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
     "ipv6:[::ffff:9835:3425]:16111": {
       "error": "''",
-      "id": "0cfa1980250f4805a8971795df14e774",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "f3fe20c0c66544f78446474be0589163",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:9835:361d]:16111": {
       "error": "''",
-      "id": "cfb3eeb7d7874e7a90082621ae9f02fc",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "7852aa1925f4436685e2505f43e9e393",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:9835:415a]:16111": {
       "error": "''",
-      "id": "795bc71c3c6d4ae6a7c6c66622d3535f",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:9835:5174]:16111": {
-      "error": "''",
-      "id": "2cda509ef8f14ff4b9e65c0826923201",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "7fffe9952afe4c2e8524c8d58bc1d62f",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:9835:52d7]:16111": {
       "error": "''",
-      "id": "58a2d1a2444649118f95780bb555b5cf",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "cdaa173060a64ba99e92c9a0ed212051",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:9835:5510]:16111": {
       "error": "''",
-      "id": "cffba83b824c494faa0e6358fd2c2667",
+      "id": "df0beadc01b145d687c6471ffccb8186",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
     "ipv6:[::ffff:9835:5832]:16111": {
       "error": "''",
-      "id": "c716515edd8d42628ac4f33f6e3d2205",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:9835:6f4f]:16111": {
-      "error": "''",
-      "id": "71548928cdda4e86a7ebe89ef3e35123",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:9835:764f]:16111": {
-      "error": "''",
-      "id": "8177f27b34fd4d60a2ab5f6528b6196a",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:9835:7a0e]:16111": {
-      "error": "''",
-      "id": "edec4e83d6444510812bc69888344c3d",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "7c1016ee07184a1ababbc19486dc923b",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:9835:80e4]:16111": {
@@ -2412,69 +2220,57 @@
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
-    "ipv6:[::ffff:9835:f165]:16111": {
+    "ipv6:[::ffff:9835:8967]:16111": {
       "error": "''",
-      "id": "85ced890f1e1463cb226286b0381c3eb",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "10fded052faf452684aae4e3f5523b23",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "ipv6:[::ffff:9a26:a9e5]:16111": {
+    "ipv6:[::ffff:9835:b27f]:16111": {
       "error": "''",
-      "id": "a8bd3302c1b64b3aa4762b92077ca89e",
-      "kaspad": "/kaspad:0.16.1/kaspad:0.16.1/",
+      "id": "b145ef79822d4dee8b67f423b1d240df",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "ipv6:[::ffff:9a35:3907]:16111": {
+    "ipv6:[::ffff:995c:d16e]:16111": {
       "error": "''",
-      "id": "339779ae704774dae1053716dae841e4",
-      "kaspad": "/kaspad:0.12.17/kaspad:0.12.17/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:9a35:3c86]:16111": {
-      "error": "''",
-      "id": "28ed673c7bdb4ced891f9cedaf745e1b",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:9b85:1a13]:16111": {
-      "error": "''",
-      "id": "a45a2437b6fc4be281e2b8c7d17ef809",
-      "kaspad": "/kaspad:0.13.0/kaspad:0.13.0/",
+      "id": "68efdd32109f4beeb488d736483a78ab",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:9d5a:c9bc]:16111": {
       "error": "''",
-      "id": "dd415a3f6e984c83b43187f81d4961a6",
+      "id": "93743b7c477f493aa9f33c4e0f3e1715",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:9e45:d5ce]:16111": {
+      "error": "''",
+      "id": "26bf1520e9a3474fb449cf63e05b026c",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:9eae:3c27]:40122": {
+      "error": "''",
+      "id": "809caa4dc05c4f159b15c427662d0448",
+      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
       "loc": ""
     },
     "ipv6:[::ffff:a237:647c]:16111": {
       "error": "''",
-      "id": "a1aa8b7425434c61952a510cdd185555",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:a237:6725]:16111": {
-      "error": "''",
-      "id": "d817e384bcc14e2c8481cc6e512731a0",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:a444:791d]:16111": {
-      "error": "''",
-      "id": "2d09d5b60c2540ae9963dd0ace08efb8",
+      "id": "781277a3eb6743298dc7e1d8fd69c05d",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
     "ipv6:[::ffff:a7b3:939b]:16111": {
       "error": "''",
-      "id": "6da997fb4c604738a8008a7603f35814",
-      "kaspad": "/kaspad:0.16.1/kaspad:0.16.1/",
+      "id": "6eda7cb2111b45fca0845e9e253553ae",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:a7eb:a890]:16111": {
       "error": "''",
-      "id": "d31f4975cd404ff79164fb433e64a464",
+      "id": "d1058d41b9ed451784e798728e57ce05",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
@@ -2486,26 +2282,26 @@
     },
     "ipv6:[::ffff:a877:88b0]:16111": {
       "error": "''",
-      "id": "7d827b1e4b454c7dab4cf8e77c2f8aeb",
+      "id": "18107b1f6b974126a57754dc6bb8a74b",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
-    "ipv6:[::ffff:aa40:9186]:16111": {
+    "ipv6:[::ffff:ace8:1b86]:16111": {
       "error": "''",
-      "id": "d7dcfefaeeac41debb67b7b47c367de8",
+      "id": "e240d61188af43abb6d19df8e7cc6f78",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:ae5d:d4ee]:16111": {
+      "error": "''",
+      "id": "09537b71d09f44d29f32fe287f0f6eaa",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:ae6d:88a2]:16111": {
       "error": "''",
-      "id": "fc671248f0ec48bd8d5bc457c1eb69d5",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:aeb4:36a6]:16111": {
-      "error": "''",
-      "id": "5daad9a91d9617db233bd039e602356c",
-      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
+      "id": "20243b0ce2ef44f894fc6271da1bd3c1",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:b009:404]:16111": {
@@ -2514,207 +2310,171 @@
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
-    "ipv6:[::ffff:b04e:8bbf]:16111": {
-      "error": "''",
-      "id": "8d6b3d60d2a74e9cbabbb2619ebaec3b",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
     "ipv6:[::ffff:b210:89da]:16111": {
       "error": "''",
-      "id": "af36437658714e1c9b460bc03eb5e1fe",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "661c18d6aaa847b591cd4be33899f12c",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "ipv6:[::ffff:b8b2:3a3c]:16111": {
+    "ipv6:[::ffff:b853:340]:16111": {
       "error": "''",
-      "id": "74b2bc4570344dee811174fe587e3452",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "005f4b568cfb4c3a8e9f7d8aafa6478b",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:b8b9:8b8f]:16111": {
       "error": "''",
-      "id": "026c1e9e46294c18a88121a22d1ec863",
+      "id": "79431c47b82f4a9ea3a62f7ab6450c1b",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
-    "ipv6:[::ffff:b9c7:35fa]:16111": {
+    "ipv6:[::ffff:b952:ee11]:16111": {
       "error": "''",
-      "id": "ffb271628550403989c2ba36a9c3cfaf",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:b9ed:649c]:16111": {
-      "error": "''",
-      "id": "4ce48ef7b1f34160bb8174063be4f8d2",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:b9ee:340]:16111": {
-      "error": "''",
-      "id": "f5db166674544ed398f2c4a6b493a375",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "076ee52ba39c4e81965bacef673fdd37",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:bc3f:e82d]:16111": {
       "error": "''",
-      "id": "e8ac5e7e8adf425191c2366e5cf4ebd6",
+      "id": "6356eea89aae4e4eb45d482eb9acb6e2",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
       "loc": ""
     },
     "ipv6:[::ffff:bc78:fd95]:16111": {
       "error": "''",
-      "id": "e1ddb06044034d25973bc4af7aeb9073",
+      "id": "d595ebbdc93f44bd81b57886b4af7e46",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:bcc0:e062]:16111": {
+      "error": "''",
+      "id": "8417fca91116419b8777c12be61b68cd",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:bcc2:a1d1]:16111": {
       "error": "''",
-      "id": "371e3807337b494ca5405e0c012527c6",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(kaspa-ng:1.0.1-2a36ea0)/",
+      "id": "61a9032ef49d40fd950693eba4668639",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "ipv6:[::ffff:bcd0:c46c]:16111": {
+    "ipv6:[::ffff:bf53:ae7c]:16111": {
       "error": "''",
-      "id": "46211756ce664b6aaaaac8c3b0c2cc1b",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "03de2bcbc50d45e390f161c47a0e2220",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "ipv6:[::ffff:bce2:53cf]:16111": {
+    "ipv6:[::ffff:bf65:e05]:16111": {
       "error": "''",
-      "id": "d6867c8163bb46efbda9ede2d85e51a7",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "68d2fe7ac3c24f4cb1af6aa8d9d96667",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "ipv6:[::ffff:bcff:9c91]:16111": {
+    "ipv6:[::ffff:c02b:9cea]:16111": {
       "error": "''",
-      "id": "00dcc3e95e6341c38ef4c9610f3854a3",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "306bc0736b632408c3198687a6538c84",
+      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
       "loc": ""
     },
     "ipv6:[::ffff:c127:cd1]:16111": {
       "error": "''",
-      "id": "ab001e1f6a97490886b60a3b136b6594",
+      "id": "0d85af7d6c804b429429a35f9a76e0bc",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(GoGPool)/",
       "loc": ""
     },
-    "ipv6:[::ffff:c19f:a9fc]:16111": {
+    "ipv6:[::ffff:c1a4:cdf9]:16111": {
       "error": "''",
-      "id": "2c73e3ad413a4180bb796d8631ac9459",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0(in_memory_of_JimmY)/",
+      "id": "bed7fd298cd04a0487448a8bd02ede06",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "ipv6:[::ffff:c1c9:5868]:16111": {
+    "ipv6:[::ffff:c21f:3472]:16111": {
       "error": "''",
-      "id": "885fbc422417443695c13a09d823c45e",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:c2a4:3a10]:16111": {
-      "error": "''",
-      "id": "37823c67a0a44b8f9c2918cb90a3e945",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "4e8ecffad81d474696b330878bdc5dd9",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:c2a4:3b0d]:16111": {
       "error": "''",
-      "id": "55d0f8f3664b4b259afe3c5229b8000b",
+      "id": "1550da7c44b443918a7010b040bdc70a",
       "kaspad": "/kaspad:0.15.2/kaspad:0.15.2/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:c2a4:c83f]:16111": {
-      "error": "''",
-      "id": "32fb8017666e49e089cf246f6f57c56b",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:c2ee:18c0]:16111": {
-      "error": "''",
-      "id": "cc27036d294f48e6a7a1e9a6f4c972a5",
-      "kaspad": "/kaspad:0.15.2/kaspad:0.15.2/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:c314:db88]:16111": {
-      "error": "''",
-      "id": "2e2890f05c7820389903bdd0b60f1180",
-      "kaspad": "/kaspad:0.12.15/kaspad:0.12.15(kdx_2.12.10)/",
       "loc": ""
     },
     "ipv6:[::ffff:c33a:3ae4]:16111": {
       "error": "''",
-      "id": "cc918ac4dd0949389c78c52bc04986c3",
+      "id": "05959bc8fb8c41ef8697c732db37fcc5",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:cc0d:ed46]:16111": {
+      "error": "''",
+      "id": "ddcbfab7e38440e6bdb4615667cc4890",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
-    "ipv6:[::ffff:c634:8e90]:16111": {
+    "ipv6:[::ffff:d046:6206]:16111": {
       "error": "''",
-      "id": "7ddff6cb07c743679df6f80b8e1189f6",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "96216fbf1008478abbedf63eee974992",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "ipv6:[::ffff:c63a:f501]:16111": {
+    "ipv6:[::ffff:d057:838e]:16111": {
       "error": "''",
-      "id": "5f282b4dcfa648a810e2c21e8138df41",
-      "kaspad": "/kaspad:0.12.14/kaspad:0.12.14(kdx_2.12.8)/",
+      "id": "61b196e1a1ff4fa7a9c23dd2ca121795",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
+      "loc": ""
+    },
+    "ipv6:[::ffff:d193:6a43]:16111": {
+      "error": "''",
+      "id": "8e6bf2fcc9024085be7bff31fc018af8",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:d5c1:53fb]:16111": {
       "error": "''",
-      "id": "70de357e4f8540dba0ca8d1e73dc6c6c",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "402d1cabf1a446f1a17396f27e4e9473",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:d5c7:28ef]:16111": {
       "error": "''",
-      "id": "c13c416c5a234426b08922d8e1e00200",
+      "id": "e4e5cf1ea9db480aaf395baa3bfa86f0",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
-    "ipv6:[::ffff:d5c7:3820]:16111": {
+    "ipv6:[::ffff:d843:3fd8]:16111": {
       "error": "''",
-      "id": "5e9e5d60c1a24567932718e953664d10",
+      "id": "082c478441d740a3ac5b154c8509d799",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
-    "ipv6:[::ffff:d8e8:4c34]:16111": {
+    "ipv6:[::ffff:d874:f698]:16111": {
       "error": "''",
-      "id": "beed7c3b45f94c77b86cd49bc929312d",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:d94f:b55d]:16111": {
-      "error": "''",
-      "id": "4b70a5e803e149b4bbb9d8cd6d36da14",
-      "kaspad": "/kaspad:0.16.1/kaspad:0.16.1/",
-      "loc": ""
-    },
-    "ipv6:[::ffff:d99a:5772]:16111": {
-      "error": "''",
-      "id": "2258b2a2e0c948aa8b4cacdf725d58a9",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "1ccf92d1308f4295aeca0e86b89cd97b",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
     "ipv6:[::ffff:d99a:d0a]:16111": {
       "error": "''",
-      "id": "5d661483f6f34fc68d98585067425bd3",
+      "id": "2a6bd01e25e94fd187564f6671facc98",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
-    "ipv6:[::ffff:dc86:5512]:16111": {
+    "ipv6:[::ffff:d99a:d0c6]:16111": {
       "error": "''",
-      "id": "b19695026c114504b51f49fb429e0e8e",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "b8180338c3d4415b84cbf5ca5f2b3bb3",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     },
-    "ipv6:[::ffff:e2f:9acf]:16111": {
+    "ipv6:[::ffff:dd5:aaf8]:16111": {
       "error": "''",
-      "id": "d35b979230d74760a5791ae19a51ea8d",
+      "id": "dfaec01430f94504bc03bf94ed28c49f",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
     "ipv6:[::ffff:fcc:65c3]:16111": {
       "error": "''",
-      "id": "2f8327cebe004588950517f1fae90e16",
+      "id": "5c3356d11d234825aba984252636b61f",
       "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
       "loc": ""
     },
@@ -2744,10 +2504,10 @@
     },
     "n-mainnet.kaspa.ws:16111": {
       "error": "''",
-      "id": "64f324bc85ff4831a5c05b4dfeacd344",
-      "kaspad": "/kaspad:1.0.0/kaspad:1.0.0/",
+      "id": "1f67b0706235437b90a7cd8c858fa5af",
+      "kaspad": "/kaspad:1.0.1/kaspad:1.0.1/",
       "loc": ""
     }
   },
-  "updated_at": 1746670028
+  "updated_at": 1759105105
 }
