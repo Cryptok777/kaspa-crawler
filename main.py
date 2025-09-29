@@ -80,14 +80,17 @@ async def get_ip_info(ip):
     """
     Return string: "48.8000,12.3167"
     """
-    ip = ip.replace("ipv6:", "")
-    url = f"https://api.findip.net/{ip}/?token={ip_geolocation_token}"
+    if not ip:
+        return None
+
+    ip = ip.replace("ipv6:[::ffff:", "")
+    url = f'https://api.ip2location.io/?key={ip_geolocation_token}&ip={ip}'
     async with aiohttp.ClientSession() as session:
         async with session.get(url) as response:
             res = await response.text()
             res = json.loads(res)
-            lat = res.get("location", {}).get("latitude")
-            lon = res.get("location", {}).get("longitude")
+            lat = res.get("latitude")
+            lon = res.get("longitude")
             if lat and lon:
                 return f"{lat},{lon}"
             else:
