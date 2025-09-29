@@ -32,26 +32,6 @@ class P2PNode(object):
     ):
         self.network = network
         self.address = address
-        self.ipinfo_token = f"?token={ipinfo_token}" if ipinfo_token is not None else ""
-
-    async def ipinfo(self, session, semaphore: asyncio.Semaphore):
-        addr, _ = self.address.rsplit(":", 1)
-        addr = addr.replace("ipv6:", "").strip("[]")
-        while True:
-            try:
-                async with semaphore:
-                    async with session.get(
-                        f"https://ipinfo.io/{addr}{self.ipinfo_token}"
-                    ) as response:
-                        resp = await response.json()
-                        if "loc" not in resp:
-                            logging.warning(
-                                f"IPInfo response is missing location for {addr}: {resp}"
-                            )
-                        return resp.get("loc", "")
-            except OSError as e:
-                logging.warning(f"Error reading ipinfo: {e}")
-                await asyncio.sleep(int(2 * random.random()) * 10)
 
     async def __aenter__(self):
         self.ID = bytes.fromhex(hex(int(random.random() * 10000))[2:].zfill(32))
@@ -140,7 +120,7 @@ class P2PNode(object):
 
 
 async def get_addresses(
-    address, network, semaphore: asyncio.Semaphore, ipinfo_token=None
+    address, network, semaphore: asyncio.Semaphore
 ):
     try:
         addresses = set()
@@ -151,7 +131,7 @@ async def get_addresses(
         loc = ""
         try:
             async with aiohttp.ClientSession() as session:
-                async with P2PNode(address, network, ipinfo_token=ipinfo_token) as node:
+                async with P2PNode(address, network) as node:
                     peer_id = node.peer_id.hex()
                     peer_kaspad = node.peer_kaspad
                     prev = time.time()
@@ -173,17 +153,17 @@ async def get_addresses(
 
         except asyncio.exceptions.TimeoutError as e:
             logging.debug("Node %s timed out", address)
-            return address, peer_id, peer_kaspad, addresses, "timeout", loc
+            return address, peer_id, peer_kaspad, addresses, "timeout"
         except Exception as e:
             logging.exception("Error in task")
-            return address, peer_id, peer_kaspad, addresses, e, loc
+            return address, peer_id, peer_kaspad, addresses, e
 
-        return address, peer_id, peer_kaspad, addresses, "", loc
+        return address, peer_id, peer_kaspad, addresses, ""
     except asyncio.CancelledError:
         logging.debug("Task was canceled")
 
 
-async def main(addresses, network, output, ipinfo_token=None):
+async def main(addresses, network, output):
     ulimit, _ = resource.getrlimit(resource.RLIMIT_NOFILE)
     ulimit = max(ulimit - 20, 1)
     logging.info(f"Running {ulimit} tasks concurrently")
@@ -195,7 +175,7 @@ async def main(addresses, network, output, ipinfo_token=None):
     pending = [
         asyncio.create_task(
             get_addresses(
-                f"{address}:{port}", network, semaphore, ipinfo_token=ipinfo_token
+                f"{address}:{port}", network, semaphore
             )
         )
         for address, port in addresses
@@ -215,7 +195,7 @@ async def main(addresses, network, output, ipinfo_token=None):
                     result = task.result()
                     if result is None:
                         continue
-                    address, peer_id, peer_kaspad, addresses, error, loc = result
+                    address, peer_id, peer_kaspad, addresses, error = result
                 except asyncio.TimeoutError:
                     logging.warning(f"Task timed out and was cancelled")
                     continue
@@ -225,7 +205,7 @@ async def main(addresses, network, output, ipinfo_token=None):
                     "id": peer_id,
                     "kaspad": peer_kaspad,
                     "error": error,
-                    "loc": loc,
+                    "loc": "",
                 }
                 if error is not None:
                     res[address]["error"] = repr(error)
@@ -248,7 +228,6 @@ async def main(addresses, network, output, ipinfo_token=None):
                                                     new_address,
                                                     network,
                                                     semaphore,
-                                                    ipinfo_token=ipinfo_token,
                                                 ),
                                                 timeout=120,
                                             )
@@ -303,7 +282,7 @@ if __name__ == "__main__":
         "-v", "--verbose", help="Verbosity level", action="count", default=1
     )
     parser.add_argument(
-        "--addr", help="Start ip:port for crawling", default="n-mainnet.kaspa.ws:16111"
+        "--addr", help="Start ip:port for crawling", default="kaspadns.kaspacalc.net:16111"
     )
     parser.add_argument("--output", help="output json path", default="data/nodes.json")
     parser.add_argument(
@@ -332,4 +311,4 @@ if __name__ == "__main__":
     )
     hostpair = args.addr.split(":") if ":" in args.addr else (args.addr, "16111")
 
-    asyncio.run(main([hostpair], args.network, args.output, ipinfo_token=args.token))
+    asyncio.run(main([hostpair], args.network, args.output))

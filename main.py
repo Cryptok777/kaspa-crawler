@@ -4,7 +4,6 @@ import os
 import logging
 import aiohttp
 import re
-
 from fastapi import FastAPI
 from kaspa_crawler import main
 
@@ -27,7 +26,27 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-seed_node = os.getenv("SEED_NODE", False)
+# Read multiple seed nodes from environment variables
+def get_seed_nodes():
+    seed_nodes = []
+    
+    # Read primary SEED_NODE
+    primary_seed = os.getenv("SEED_NODE")
+    if primary_seed:
+        seed_nodes.append(primary_seed)
+    
+    # Read additional SEED_NODE_N
+    i = 1
+    while True:
+        seed = os.getenv(f"SEED_NODE_{i}")
+        if not seed:
+            break
+        seed_nodes.append(seed)
+        i += 1
+    
+    return seed_nodes if seed_nodes else ["kaspadns.kaspacalc.net:16111"]  # Default fallback
+
+seed_nodes = get_seed_nodes()
 verbose = os.getenv("VERBOSE", 0)
 ip_geolocation_token = os.getenv("IP_GEOLOCATION_TOKEN", 0)
 
@@ -56,7 +75,6 @@ def extract_ip_address(input_string):
     else:
         return None
 
-
 @AsyncLRU(maxsize=8192)
 async def get_ip_info(ip):
     """
@@ -74,7 +92,6 @@ async def get_ip_info(ip):
                 return f"{lat},{lon}"
             else:
                 return None
-
 
 @app.get("/")
 async def read_root():
@@ -96,9 +113,19 @@ def init_data():
 
 
 async def update_nodes_async() -> None:
-    logging.info(f"Starting crawler job")
-    hostpair = seed_node.split(":") if ":" in seed_node else (seed_node, "16111")
-    await main([hostpair], "kaspa-mainnet", NODE_OUTPUT_FILE)
+    logging.info(f"Starting crawler job with {len(seed_nodes)} seed nodes")
+    
+    # Convert all seed nodes to hostpair tuples
+    hostpairs = []
+    for seed in seed_nodes:
+        if ":" in seed:
+            host, port = seed.split(":", 1)
+            hostpairs.append((host, port))
+        else:
+            hostpairs.append((seed, "16111"))
+    
+    logging.info(f"Seed nodes: {', '.join(seed_nodes)}")
+    await main(hostpairs, "kaspa-mainnet", NODE_OUTPUT_FILE)
 
 
 def update_nodes() -> None:

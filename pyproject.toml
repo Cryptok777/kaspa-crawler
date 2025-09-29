@@ -1,0 +1,28 @@
+[project]
+name = "kaspa-crawler"
+version = "0.1.0"
+description = "Kaspa network crawler"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "grpcio-tools",
+    "grpcio",
+    "ndjson",
+    "aiofiles",
+    "psutil",
+    "load-dotenv",
+    "uvicorn[standard]",
+    "fastapi",
+    "aiohttp",
+    "async-cache",
+    "apscheduler",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
