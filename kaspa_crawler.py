@@ -12,6 +12,7 @@ import aiohttp
 import resource
 
 import p2p_pb2, messages_pb2, messages_pb2_grpc
+from nodes_db import NodesDB
 
 
 async def message_stream(queue):
@@ -119,46 +120,45 @@ class P2PNode(object):
                 pass
 
 
-async def get_addresses(
-    address, network, semaphore: asyncio.Semaphore
-):
+async def get_addresses(address, network, semaphore: asyncio.Semaphore):
     try:
-        addresses = set()
-        prev_size = -1
-        patience = 10
-        peer_id = ""
-        peer_kaspad = ""
-        loc = ""
-        try:
-            async with aiohttp.ClientSession() as session:
-                async with P2PNode(address, network) as node:
-                    peer_id = node.peer_id.hex()
-                    peer_kaspad = node.peer_kaspad
-                    prev = time.time()
-                    while len(addresses) > prev_size or patience > 0:
-                        # Log info every 5 seconds approximately
-                        if time.time() - prev > 5:
-                            logging.info("getting more addresses")
-                            prev = time.time()
-                        if len(addresses) <= prev_size:
-                            patience -= 1
-                        else:
-                            patience = 10
-                        prev_size = len(addresses)
-                        item = await node.get_addresses()
-                        if item is not None:
-                            addresses.update(
-                                ((x.timestamp, x.ip, x.port) for x in item)
-                            )
+        async with semaphore:  # Acquire semaphore to limit concurrent connections
+            addresses = set()
+            prev_size = -1
+            patience = 10
+            peer_id = ""
+            peer_kaspad = ""
+            loc = ""
+            try:
+                async with aiohttp.ClientSession() as session:
+                    async with P2PNode(address, network) as node:
+                        peer_id = node.peer_id.hex()
+                        peer_kaspad = node.peer_kaspad
+                        prev = time.time()
+                        while len(addresses) > prev_size or patience > 0:
+                            # Log info every 5 seconds approximately
+                            if time.time() - prev > 5:
+                                logging.info("getting more addresses")
+                                prev = time.time()
+                            if len(addresses) <= prev_size:
+                                patience -= 1
+                            else:
+                                patience = 10
+                            prev_size = len(addresses)
+                            item = await node.get_addresses()
+                            if item is not None:
+                                addresses.update(
+                                    ((x.timestamp, x.ip, x.port) for x in item)
+                                )
 
-        except asyncio.exceptions.TimeoutError as e:
-            logging.debug("Node %s timed out", address)
-            return address, peer_id, peer_kaspad, addresses, "timeout"
-        except Exception as e:
-            logging.exception("Error in task")
-            return address, peer_id, peer_kaspad, addresses, e
+            except asyncio.exceptions.TimeoutError as e:
+                logging.debug("Node %s timed out", address)
+                return address, peer_id, peer_kaspad, addresses, "timeout"
+            except Exception as e:
+                logging.exception("Error in task")
+                return address, peer_id, peer_kaspad, addresses, e
 
-        return address, peer_id, peer_kaspad, addresses, ""
+            return address, peer_id, peer_kaspad, addresses, ""
     except asyncio.CancelledError:
         logging.debug("Task was canceled")
 
@@ -173,11 +173,7 @@ async def main(addresses, network, output):
     bad_ipstrs = []
     seen = set()
     pending = [
-        asyncio.create_task(
-            get_addresses(
-                f"{address}:{port}", network, semaphore
-            )
-        )
+        asyncio.create_task(get_addresses(f"{address}:{port}", network, semaphore))
         for address, port in addresses
     ]
     start_time = time.time()
@@ -205,7 +201,6 @@ async def main(addresses, network, output):
                     "id": peer_id,
                     "kaspad": peer_kaspad,
                     "error": error,
-                    "loc": "",
                 }
                 if error is not None:
                     res[address]["error"] = repr(error)
@@ -243,24 +238,22 @@ async def main(addresses, network, output):
         for task in pending:
             task.cancel()
 
-        logging.info("Writing results...")
-        # Clean up
-        clean_res = {}
-        for i in res:
-            if res[i]["neighbors"] != []:
-                clean_res[i] = res[i]
-                del clean_res[i]["neighbors"]
+        logging.info("Writing results to database...")
+        # Write to SQLite database
+        nodes_db = NodesDB(
+            output.replace(".json", ".db") if output.endswith(".json") else output
+        )
 
-        async with semaphore:
-            if len(clean_res) >= 10:
-                json.dump(
-                    {"nodes": clean_res, "updated_at": int(time.time())},
-                    open(output, "w"),
-                    allow_nan=False,
-                    indent=2,
-                    sort_keys=True,
-                    ensure_ascii=True,
+        for ip, node_data in res.items():
+            # Only save nodes that have neighbors (valid nodes)
+            if node_data["neighbors"] != []:
+                nodes_db.upsert_node(
+                    ip=ip, node_id=node_data["id"], kaspad=node_data["kaspad"]
                 )
+
+        logging.info(
+            f"Successfully saved {len([r for r in res.values() if r['neighbors'] != []])} nodes to database"
+        )
 
         while len(pending) > 0:
             logging.warning(
@@ -282,9 +275,11 @@ if __name__ == "__main__":
         "-v", "--verbose", help="Verbosity level", action="count", default=1
     )
     parser.add_argument(
-        "--addr", help="Start ip:port for crawling", default="kaspadns.kaspacalc.net:16111"
+        "--addr",
+        help="Start ip:port for crawling",
+        default="kaspadns.kaspacalc.net:16111",
     )
-    parser.add_argument("--output", help="output json path", default="data/nodes.json")
+    parser.add_argument("--output", help="output json path", default="data/nodes.db")
     parser.add_argument(
         "--network",
         help="Which network to connect to",
