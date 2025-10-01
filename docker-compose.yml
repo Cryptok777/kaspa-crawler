@@ -6,9 +6,9 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "${PORT:-8080}:8080"
+      - "8181:8181"
     environment:
-      - PORT=${PORT:-8080}
+      - PORT=8181
       - VERBOSE=${VERBOSE:-1}
       - SEED_NODE=${SEED_NODE:-kaspadns.kaspacalc.net:16111}
       - SEED_NODE_1=${SEED_NODE_1:-}
@@ -26,7 +26,7 @@ services:
         soft: 65536
         hard: 65536
     healthcheck:
-      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8080/').read()"]
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8181/').read()"]
       interval: 30s
       timeout: 10s
       retries: 3
