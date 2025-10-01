@@ -133,7 +133,7 @@ async def read_root():
 @app.on_event("startup")
 def init_data():
     scheduler = BackgroundScheduler()
-    scheduler.add_job(update_nodes, "interval", minutes=60)
+    scheduler.add_job(update_nodes, "interval", minutes=30)
     scheduler.start()
 
 
