@@ -10,10 +10,12 @@ import asyncio
 import json
 import aiohttp
 import resource
+from dotenv import load_dotenv
 
 import p2p_pb2, messages_pb2, messages_pb2_grpc
 from nodes_db import NodesDB
 
+load_dotenv(override=True)
 
 async def message_stream(queue):
     message = await queue.get()
@@ -52,13 +54,18 @@ class P2PNode(object):
         return self
 
     async def __aexit__(self, exc_type, exc_val, exc_tb):
-        await self.send_queue.put(None)
-        if exc_type is not None and issubclass(exc_type, asyncio.CancelledError):
-            self.stream.cancel()
-        else:
-            await self.send_queue.join()
-        await self.channel.close(2)
-        pass
+        try:
+            await self.send_queue.put(None)
+            if exc_type is not None and issubclass(exc_type, asyncio.CancelledError):
+                self.stream.cancel()
+            else:
+                await self.send_queue.join()
+        finally:
+            # Always close the channel, even if there's an error
+            try:
+                await asyncio.wait_for(self.channel.close(), timeout=2)
+            except Exception as e:
+                logging.debug(f"Error closing channel for {self.address}: {e}")
 
     async def handshake(self):
         logging.debug("Starting handshake")
@@ -130,26 +137,25 @@ async def get_addresses(address, network, semaphore: asyncio.Semaphore):
             peer_kaspad = ""
             loc = ""
             try:
-                async with aiohttp.ClientSession() as session:
-                    async with P2PNode(address, network) as node:
-                        peer_id = node.peer_id.hex()
-                        peer_kaspad = node.peer_kaspad
-                        prev = time.time()
-                        while len(addresses) > prev_size or patience > 0:
-                            # Log info every 5 seconds approximately
-                            if time.time() - prev > 5:
-                                logging.info("getting more addresses")
-                                prev = time.time()
-                            if len(addresses) <= prev_size:
-                                patience -= 1
-                            else:
-                                patience = 10
-                            prev_size = len(addresses)
-                            item = await node.get_addresses()
-                            if item is not None:
-                                addresses.update(
-                                    ((x.timestamp, x.ip, x.port) for x in item)
-                                )
+                async with P2PNode(address, network) as node:
+                    peer_id = node.peer_id.hex()
+                    peer_kaspad = node.peer_kaspad
+                    prev = time.time()
+                    while len(addresses) > prev_size or patience > 0:
+                        # Log info every 5 seconds approximately
+                        if time.time() - prev > 5:
+                            logging.info("getting more addresses")
+                            prev = time.time()
+                        if len(addresses) <= prev_size:
+                            patience -= 1
+                        else:
+                            patience = 10
+                        prev_size = len(addresses)
+                        item = await node.get_addresses()
+                        if item is not None:
+                            addresses.update(
+                                ((x.timestamp, x.ip, x.port) for x in item)
+                            )
 
             except asyncio.exceptions.TimeoutError as e:
                 logging.debug("Node %s timed out", address)
@@ -165,9 +171,24 @@ async def get_addresses(address, network, semaphore: asyncio.Semaphore):
 
 async def main(addresses, network, output):
     ulimit, _ = resource.getrlimit(resource.RLIMIT_NOFILE)
-    ulimit = max(ulimit - 20, 1)
-    logging.info(f"Running {ulimit} tasks concurrently")
-    semaphore = asyncio.Semaphore(ulimit)
+    # Be more conservative with concurrent connections to avoid exhausting file descriptors
+    # Reserve more headroom for other file operations (database, logs, etc.)
+    # For shared-cpu-1x instances, use more conservative limits
+    
+    # Allow override via environment variable for fine-tuning
+    env_max = os.getenv("MAX_CONCURRENT_CONNECTIONS")
+    if env_max:
+        try:
+            max_concurrent = int(env_max)
+            logging.info(f"Using MAX_CONCURRENT_CONNECTIONS from environment: {max_concurrent}")
+        except ValueError:
+            max_concurrent = min(ulimit - 150, 250)
+    else:
+        max_concurrent = min(ulimit - 150, 250)  # Cap at 250 for shared instances, reserve 150 FDs
+    
+    max_concurrent = max(max_concurrent, 10)  # Ensure at least 10 concurrent tasks
+    logging.info(f"Running {max_concurrent} tasks concurrently (ulimit: {ulimit})")
+    semaphore = asyncio.Semaphore(max_concurrent)
 
     res = {}
     bad_ipstrs = []
@@ -240,20 +261,19 @@ async def main(addresses, network, output):
 
         logging.info("Writing results to database...")
         # Write to SQLite database
-        nodes_db = NodesDB(
+        with NodesDB(
             output.replace(".json", ".db") if output.endswith(".json") else output
-        )
+        ) as nodes_db:
+            for ip, node_data in res.items():
+                # Only save nodes that have neighbors (valid nodes)
+                if node_data["neighbors"] != []:
+                    nodes_db.upsert_node(
+                        ip=ip, node_id=node_data["id"], kaspad=node_data["kaspad"]
+                    )
 
-        for ip, node_data in res.items():
-            # Only save nodes that have neighbors (valid nodes)
-            if node_data["neighbors"] != []:
-                nodes_db.upsert_node(
-                    ip=ip, node_id=node_data["id"], kaspad=node_data["kaspad"]
-                )
-
-        logging.info(
-            f"Successfully saved {len([r for r in res.values() if r['neighbors'] != []])} nodes to database"
-        )
+            logging.info(
+                f"Successfully saved {len([r for r in res.values() if r['neighbors'] != []])} nodes to database"
+            )
 
         while len(pending) > 0:
             logging.warning(

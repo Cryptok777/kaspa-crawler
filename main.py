@@ -82,7 +82,7 @@ def extract_ip_address(input_string):
         return None
 
 
-async def get_ip_info(ip):
+async def get_ip_info_with_session(session, ip):
     """
     Return string: "48.8000,12.3167"
     """
@@ -91,42 +91,40 @@ async def get_ip_info(ip):
 
     ip = ip.replace("ipv6:[::ffff:", "")
     url = f"https://api.findip.net/{ip}/?token={ip_geolocation_token}"
-    async with aiohttp.ClientSession() as session:
-        async with session.get(url) as response:
-            res = await response.text()
-            res = json.loads(res)
-            lat = res.get("location", {}).get("latitude")
-            lon = res.get("location", {}).get("longitude")
-            if lat and lon:
-                print("found ip info", ip, f"{lat},{lon}")
-                return f"{lat},{lon}"
-            else:
-                return None
+    async with session.get(url) as response:
+        res = await response.text()
+        res = json.loads(res)
+        lat = res.get("location", {}).get("latitude")
+        lon = res.get("location", {}).get("longitude")
+        if lat and lon:
+            print("found ip info", ip, f"{lat},{lon}")
+            return f"{lat},{lon}"
+        else:
+            return None
 
 
 @app.get("/")
 async def read_root():
     # Read nodes from database, filtering out nodes older than 7 days
-    nodes_db = NodesDB(NODE_OUTPUT_FILE)
-    nodes = nodes_db.get_all_nodes(max_age_days=7)
-
-    # Get the latest update timestamp
-    updated_at = nodes_db.get_latest_update_time()
+    with NodesDB(NODE_OUTPUT_FILE) as nodes_db:
+        nodes = nodes_db.get_all_nodes(max_age_days=7)
+        # Get the latest update timestamp
+        updated_at = nodes_db.get_latest_update_time()
 
     # Build response in the same format as before
-    geolocation_db = GeolocationDB()
-
-    for ip in nodes:
-        if geolocation_db.get(ip):
-            nodes[ip]["loc"] = geolocation_db.get(ip)
-            continue
-        try:
-            loc = await get_ip_info(extract_ip_address(ip))
-            if loc:
-                nodes[ip]["loc"] = loc
-                geolocation_db.set(ip, loc)
-        except Exception as e:
-            logging.warning(f"Error processing IP {ip}: {str(e)}")
+    with GeolocationDB() as geolocation_db:
+        async with aiohttp.ClientSession() as session:
+            for ip in nodes:
+                if geolocation_db.get(ip):
+                    nodes[ip]["loc"] = geolocation_db.get(ip)
+                    continue
+                try:
+                    loc = await get_ip_info_with_session(session, extract_ip_address(ip))
+                    if loc:
+                        nodes[ip]["loc"] = loc
+                        geolocation_db.set(ip, loc)
+                except Exception as e:
+                    logging.warning(f"Error processing IP {ip}: {str(e)}")
 
     # Return in the same format as the original JSON
     return {"nodes": nodes, "updated_at": updated_at}

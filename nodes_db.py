@@ -98,7 +98,19 @@ class NodesDB:
         result = self.cursor.fetchone()[0]
         return result if result is not None else int(time.time())
 
-    def __del__(self):
-        """Close the database connection when the object is destroyed."""
+    def close(self):
+        """Close the database connection."""
         if hasattr(self, "conn"):
             self.conn.close()
+
+    def __enter__(self):
+        """Support context manager protocol."""
+        return self
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        """Close connection when exiting context."""
+        self.close()
+
+    def __del__(self):
+        """Close the database connection when the object is destroyed."""
+        self.close()
